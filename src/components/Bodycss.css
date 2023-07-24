@@ -1,0 +1,108 @@
+.Body{
+    margin-top: 100px;
+    padding: 10px 30px;
+    box-shadow: 0px 1px whitesmoke;
+}
+.text{
+    margin-bottom: 100px;
+}
+.row-body{
+    margin-bottom: 50px;
+}
+.res-grid{
+    padding: 20px 20px;
+    position:relative;
+    overflow: hidden;
+}
+.sol{
+    width:400px;
+    height:400px;
+}
+.text-image{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition:0.5s ease-in-out;
+}
+.text-image img{
+    object-fit: cover;
+    object-position: left;
+}
+.text-image:hover img{
+    transform: scale(1.1);
+    filter: blur(3px);
+}
+.text-image:hover .blur{
+    left:0%;
+}
+.t-img{
+    position:relative;
+    height: 100%;
+    width:100%;
+    top:50%;
+}
+.blur:hover{
+   left: 0%;
+}
+.blur{
+    position: absolute;
+    top:0;
+    background-color:rgba(0,0,0,0.7);
+    height: 100%;
+    width:100%;
+    left:-200%;
+    z-index: 5;
+    transition: 0.5s ease-in-out;
+}
+.contact img{
+    height: 100%;
+    width:100%;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  tr,td{
+    text-align: center;
+  }
+  .button{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color:black;
+    padding:10px 20px;
+    background-color: yellow;
+    border-radius: 3px;
+    border: 1px solid yellow;
+  }
+  .button:hover{
+    color:red;
+    background: transparent;
+  }
+  .form form{
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  .form h4{
+    padding-top: 70px;
+    color:bisque;
+  }
+  .form-text{
+    background-color:bisque;
+    color:black;
+    border-left:none;
+    border-right: none;
+    border-top: none;
+    border-bottom:1px solid red;
+    border-radius: 10px;
+  }
+@media screen and (max-width:750){
+.t-img{
+     height: 200px;
+    width:300px;
+}
+}
+

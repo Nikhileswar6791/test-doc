@@ -1,0 +1,29 @@
+.row{
+    text-align: center;
+}
+@media screen and (max-width:768px) {
+       .empty{
+        display:none;
+       } 
+}
+.row a{
+    text-decoration: none;
+}
+.footer{
+    padding: 30px;
+    margin: 50px;
+    border: 1px solid;
+    border-color: white;
+    border-radius: 20px;
+}
+.logo{
+    margin-bottom: 10px;
+}
+.copy{
+    width: 100%;
+    padding: 0;
+    margin:0;
+}
+.copy p{
+    font-size: 0.8rem;
+}

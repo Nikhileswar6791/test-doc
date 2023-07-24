@@ -1,0 +1,27 @@
+.slider{
+    margin-top: 100px;
+}
+.slider img{
+    width:100%;
+    object-fit: cover;
+    object-position: left;
+}
+.text-img{
+    background-color: rgba(0,0,0,0.4);
+}
+h4{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+@media screen and (min-width:1000px){
+    .slider img{
+        height: 70vh;
+        padding: 10px 20px;
+    }
+}
+@media screen and (max-width:1000px){
+    .slider img{
+        height: 40vh;
+    }
+}
