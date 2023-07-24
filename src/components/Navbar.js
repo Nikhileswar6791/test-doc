@@ -22,9 +22,9 @@ const Navbar = () => {
         </li>
        </ul>
         <div className='icon' onClick={handleclick}>
-            {onclick ? ( <FaTimes size= {20} style = {{color:'white'}}/>) 
+            {onclick ? ( <FaTimes size= {30} style = {{color:'black'}}/>) 
            :(
-            <FaBars size= {20} style = {{color:'white'}}/>)}
+            <FaBars size= {30} style = {{color:'black'}}/>)}
         </div>
     </div>
   )

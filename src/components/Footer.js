@@ -50,7 +50,7 @@ const Footer = () => {
             </div>
           </div>
           <div className='row copy'>
-              <p>Copyright 2022 Doctorspectra</p>
+              <p>Copyright {String.fromCodePoint(0x00A9)} 2022 Doctorspectra</p>
             </div>
         </div>
        </div>

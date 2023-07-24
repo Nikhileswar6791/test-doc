@@ -10,11 +10,9 @@
     text-decoration: none;
 }
 .footer{
+    background-color: black;
     padding: 30px;
-    margin: 50px;
-    border: 1px solid;
-    border-color: white;
-    border-radius: 20px;
+
 }
 .logo{
     margin-bottom: 10px;
@@ -24,6 +22,10 @@
     padding: 0;
     margin:0;
 }
+.row p{
+    color: white;
+}
 .copy p{
     font-size: 0.8rem;
+    color: white;
 }

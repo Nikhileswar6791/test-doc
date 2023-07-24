@@ -6,7 +6,8 @@ const Slider = () => {
   return (
     <div className = "slider" style={{ display: 'block', width: "100%"}}>
     <h4>What do we Offer</h4>
-    <Carousel>
+    <Carousel
+    variant= "dark">
       <Carousel.Item interval={1500}>
         <img
           className="d-block w-100" src={require("../images/images/image1.jpg")} alt="One"
@@ -64,6 +65,7 @@ const Slider = () => {
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
+    <hr class = "hr"/>
   </div>
   )
 }

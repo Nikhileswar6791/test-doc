@@ -23,6 +23,7 @@ const Body = () => {
     <p>This is layered further with artificial intelligence which processes the data and gives accurate results on specific contents of the fresh produce which further determines its freshness, days to get fully ripe and identify and alert for any unwanted contamination (if any).</p>
     </div>
 </div>
+<hr className='hr'></hr>
 <h4 className='text'>Solutions for entire food supply chain</h4>
 <div className='row row-body'>
     <div className='col-md-6 col-lg-4 res-grid'>
@@ -100,28 +101,29 @@ const Body = () => {
  
   </div>
 </div>
+<hr className='hr'></hr>
 <div className='row form'>
   <div className='col-md-6'>
   <h4 className='text'>Would like to see a demo, Reach out to us</h4>
   </div>
   <div className='col-md-6'>
   <form>
-  <div class="row mb-3">
-    <label for="inputEmail3" class="col-sm-2 col-form-label"><p>Email</p></label>
-    <div class="col-sm-10">
-      <input type="email" class="form-control form-text" id="inputEmail3"/>
+  <div className="row mb-3">
+    <label for="inputEmail3" className="col-sm-2 col-form-label"><p>Email</p></label>
+    <div className="col-sm-10">
+      <input type="email" className="form-control form-text" id="inputEmail3"/>
     </div>
   </div>
-  <div class="row mb-3">
-    <label for="name" class="col-sm-2 col-form-label"><p>Name</p></label>
-    <div class="col-sm-10">
-      <input type="text" class="form-control form-text" id="name"/>
+  <div className="row mb-3">
+    <label for="NameclassName" className="col-sm-2 col-form-label"><p>Name</p></label>
+    <div className="col-sm-10">
+      <input type="text" className="form-control form-text" id="NameclassName"/>
     </div>
   </div>
-  <div class="row mb-3">
-    <label for="c-name" class="col-sm-2 col-form-label"><p>Company name</p></label>
-    <div class="col-sm-10">
-      <input type="text" class="form-control form-text" id="c-name"/>
+  <div className="row mb-3">
+    <label for="c-NameclassName" className="col-sm-2 col-form-label"><p>Company Name</p></label>
+    <div className="col-sm-10">
+      <input type="text" className="form-control form-text" id="c-NameclassName"/>
     </div>
   </div>
   <input type="submit" className="button" value = "Book a Demo"/>
