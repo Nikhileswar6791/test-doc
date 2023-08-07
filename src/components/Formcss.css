@@ -1,0 +1,20 @@
+#success {
+  display: none;
+  margin-left: 30px;
+  margin-right: 30px;
+  align-items: center;
+}
+#success p {
+  color: hsl(120, 90%, 44%);
+  font-weight: 500;
+}
+#danger {
+  display: none;
+  margin-left: 30px;
+  margin-right: 30px;
+  align-items: center;
+}
+#danger p {
+  color: red;
+  font-weight: 500;
+}

@@ -1,138 +1,262 @@
-.Body{
-    margin-top: 30px;
-    padding: 10px 30px;
-    box-shadow: 0px 1px green;
+.Body {
+  margin-top: 30px;
+  padding: 10px 30px;
 }
-.Body h4{
+.Body h4 {
   color: #05386b;
   font-weight: 700;
   font-size: 2rem;
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
-  margin-top:40px;
+  margin-top: 40px;
 }
-  .hr{
-    width:10%;
-    height:5px;
-    color:black;
-    background-color:black;
-    margin:auto;
-    margin-top:50px;
-    border-radius: 20px;
-    border: 1px solid black;
+.hr {
+  width: 10%;
+  height: 5px;
+  color: black;
+  background-color: black;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+.text {
+  margin-bottom: 30px;
+}
+.Main {
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.Col-1,
+.Col-2 {
+  background: rgba(255, 255, 255, 0.7);
+  padding: 50px;
+  border: 1px solid #05386b;
+  border-radius: 20px;
+}
+.Col-2 p {
+  color: black;
+  font-weight: 450;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.Col-1 p {
+  color: black;
+  font-weight: 450;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.l-250 {
+  display: none;
+}
+.container-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.ret {
+  width: 50%;
+  float: left;
+}
+.text-1 {
+  width: 50%;
+  float: left;
+}
+.ret img {
+  max-width: 500px;
+  max-height: 200px;
+}
+.text-1 {
+  display: flex;
+  flex-direction: column;
+}
+.text-1 h4 {
+  float: left;
+  font-size: 1.4rem;
+}
+.inner p {
+  display: inline-block;
+  text-align: left;
+  color: black;
+  font-size: 0.9rem;
+  font-weight: 420;
 }
 
-.text{
-    margin-bottom: 100px;
+/* .row-body {
+  margin-bottom: 50px;
 }
-.row-body{
-    margin-bottom: 50px;
-}
-.row-body p{
-  color:black;
+.row-body p {
+  color: black;
   font-weight: 500;
   font-size: 1.2rem;
 }
-.res-grid{
-    padding: 20px 20px;
-    position:relative;
-    overflow: hidden;
+.res-grid {
+  padding: 20px 20px;
+  position: relative;
+  overflow: hidden;
 }
-.sol{
-    width:400px;
-    height:400px;
+.sol {
+  width: 400px;
+  height: 400px;
 }
-.text-image{
-    height: 100%;
-    width: 100%;
-    position: relative;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    transition:0.5s ease-in-out;
+.text-image {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transition: 0.5s ease-in-out;
 }
-.text-image img{
-    object-fit: cover;
-    object-position: left;
+.text-image img {
+  object-fit: cover;
+  object-position: left;
 }
-.text-image:hover img{
-    transform: scale(1.1);
-    filter: blur(3px);
+.text-image:hover img {
+  transform: scale(1.1);
+  filter: blur(3px);
 }
-.text-image:hover .blur{
-    left:0%;
+.text-image:hover .blur {
+  left: 0%;
 }
-.t-img{
-    position:relative;
-    height: 100%;
-    width:100%;
-    top:50%;
+.t-img {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  top: 50%;
 }
-.t-img h3{
-  color:#05386b;
+.t-img h3 {
+  color: #05386b;
   font-weight: 800;
 }
-.blur:hover{
-   left: 0%;
+.blur:hover {
+  left: 0%;
 }
-.blur{
-    position: absolute;
-    top:0;
-    background-color:rgba(233,233,233,0.7);
-    height: 100%;
-    width:100%;
-    left:-200%;
-    z-index: 5;
-    transition: 0.5s ease-in-out;
+.blur {
+  position: absolute;
+  top: 0;
+  background-color: rgba(233, 233, 233, 0.7);
+  height: 100%;
+  width: 100%;
+  left: -200%;
+  z-index: 5;
+  transition: 0.5s ease-in-out;
 }
-.contact img{
-    height: 100%;
-    width:100%;
+.contact img {
+  height: 100%;
+  width: 100%;
 }
 
 .center {
-    margin-left: auto;
-    margin-right: auto;
-  }
-  tr,td{
-    text-align: center;
-  }
-  .button{
-    margin-top: 30px;
-    margin-bottom: 30px;
-    color:black;
-    padding:10px 20px;
-    background-color: #49c5b6;
-    border-radius: 3px;
-    border: 1px solid #49c5b6;
-    font-weight: 600;
-  }
-  .button:hover{
-    color:#49c5b6;
-    background: transparent;
-  }
-  .form form{
-    margin-top: 40px;
-    margin-bottom: 20px;
-  }
-  .form h4{
-    padding-top: 70px;
-    color:#D14836;
-  }
-  .form-text{
-    background-color:whitesmoke;
-    border:2px solid black;
-    border-radius: 5px;
-  }
-  .form p{
-    color:#D14836;
-    font-weight: 600;
-  }
-@media screen and (max-width:750){
-.t-img{
-     height: 200px;
-    width:300px;
+  margin-left: auto;
+  margin-right: auto;
 }
+tr,
+td {
+  text-align: center;
+} */
+.button {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: white;
+  padding: 10px 20px;
+  background-color: #5dbea3;
+  border-radius: 40px;
+  border: 1px solid #5dbea3;
+  font-weight: 600;
+}
+.button:hover {
+  color: #5dbea3;
+  background: transparent;
+}
+.form {
+  width: 100%;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 30px;
+  text-align: center;
+}
+.form form {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.form h4 {
+  padding-top: 70px;
+  color: #d14836;
+  font-weight: 700;
+}
+.form-text {
+  background-color: whitesmoke;
+  border: 2px solid rgba(220, 220, 220, 0.7);
+  border-radius: 5px;
+}
+.form p {
+  color: black;
+  font-weight: 600;
+}
+.awards p {
+  color: black;
+  font-weight: 700;
+  font-size: 1.2rem;
 }
 
+@media screen and (max-width: 840px) {
+  .a-1 img {
+    height: 150px;
+    width: 150px;
+  }
+  .a-1 {
+    padding: 30px 20px;
+  }
+  .Col-1 img {
+    height: 270px;
+  }
+  .Col-2 img {
+    height: 270px;
+  }
+  .Col-1 {
+    margin-bottom: 30px;
+  }
+  .Main {
+    padding-left: 2.5px;
+    padding-right: 2.5px;
+  }
+  .inner h4 {
+    font-size: 1.1rem;
+  }
+}
+@media screen and (max-width: 300px) {
+  .container-1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-right: 25px;
+  }
+  .l-250 {
+    display: inline-block;
+  }
+  .l-250 p {
+    padding-top: 20px;
+    text-align: center;
+    color: black;
+    font-size: 0.9rem;
+    font-weight: 450;
+  }
+  .inner-p {
+    display: none;
+  }
+  .inner h4 {
+    float: left;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .ret img {
+    height: 150px;
+    width: 150px;
+  }
+}
