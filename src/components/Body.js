@@ -8,7 +8,7 @@ const Body = () => {
       <div className="row Main">
         <div className="col-md-5 Col-1">
           <img
-            src={require("../images/images/image8.png")}
+            src={require("../images/images/image8.jpg")}
             width={"100%"}
             height={"300px"}
             alt="Spectral Imaging"
@@ -21,7 +21,7 @@ const Body = () => {
         </div>
         <div className="col-md-5 Col-2">
           <img
-            src={require("../images/images/image7.png")}
+            src={require("../images/images/image7.jpg")}
             width={"100%"}
             height={"300px"}
             alt="Spectral Imaging"
@@ -37,7 +37,7 @@ const Body = () => {
       </div>
       {/* <div className='row row-body'>
           <div className='col-md-6 '>
-          <img src = {require("../images/images/image8.png")} width={"100%"} alt = "Spectral Imaging"></img>
+          <img src = {require("../images/images/image8.jpg")} width={"100%"} alt = "Spectral Imaging"></img>
           </div>
           <div className='col-md-6 para'>
           <p>We use the novel technology of Hyperspectral imaging to check the freshness of your produce from the inside coupled with image processing which checks the exterior as well.</p>
@@ -45,7 +45,7 @@ const Body = () => {
     </div>
     <div className='row row-body'>
     <div className='col-md-6'>
-    <img src = {require("../images/images/image7.png")} width={"100%"} alt = "Spectral Imaging"></img>
+    <img src = {require("../images/images/image7.jpg")} width={"100%"} alt = "Spectral Imaging"></img>
     
     </div>
     <div className='col-md-6 para'>
@@ -59,7 +59,7 @@ const Body = () => {
         <div className="col container-1">
           <div className="ret">
             <img
-              src={require("../images/images/retailers.png")}
+              src={require("../images/images/retailers.jpg")}
               alt="retailers"
             />
           </div>
@@ -84,7 +84,7 @@ const Body = () => {
         <div className="col container-1">
           <div className="ret">
             <img
-              src={require("../images/images/exporters.png")}
+              src={require("../images/images/exporters.jpg")}
               alt="importers"
             />
           </div>
@@ -110,7 +110,7 @@ const Body = () => {
       <div className="row ">
         <div className="col container-1">
           <div className="ret">
-            <img src={require("../images/images/growers.png")} alt="growers" />
+            <img src={require("../images/images/growers.jpg")} alt="growers" />
           </div>
           <div className="text-1">
             <div className="inner">
@@ -132,7 +132,7 @@ const Body = () => {
         </div>
         <div className="col container-1">
           <div className="ret">
-            <img src={require("../images/images/traders.png")} alt="traders" />
+            <img src={require("../images/images/traders.jpg")} alt="traders" />
           </div>
           <div className="text-1">
             <div className="inner">
@@ -156,7 +156,7 @@ const Body = () => {
       <div className="row">
         <div className="col container-1">
           <div className="ret">
-            <img src={require("../images/images/food.png")} alt="traders" />
+            <img src={require("../images/images/food.jpg")} alt="traders" />
           </div>
           <div className="text-1">
             <div className="inner">
@@ -178,7 +178,7 @@ const Body = () => {
         </div>
         <div className="col container-1">
           <div className="ret">
-            <img src={require("../images/images/owner.png")} alt="traders" />
+            <img src={require("../images/images/owner.jpg")} alt="traders" />
           </div>
           <div className="text-1">
             <div className="inner">
@@ -201,7 +201,7 @@ const Body = () => {
       </div>
       {/* <div className="container-1 ">
       <div className="ret">
-        <img src={require('../images/images/retailers.png')} alt = "retailers"/>
+        <img src={require('../images/images/retailers.jpg')} alt = "retailers"/>
       </div>
       <div className="text-1">
         <h4>This is a beautiful garden.</h4>
@@ -209,7 +209,7 @@ const Body = () => {
     </div>
     <div className="container-1">
       <div className="ret">
-        <img src={require('../images/images/exporters.png')} alt = "retailers"/>
+        <img src={require('../images/images/exporters.jpg')} alt = "retailers"/>
       </div>
       <div className="text-1">
         <h4>This is a beautiful garden.</h4>
@@ -217,7 +217,7 @@ const Body = () => {
     </div>
     <div className="container-1">
       <div className="ret">
-        <img src={require('../images/images/growers.png')} alt = "retailers"/>
+        <img src={require('../images/images/growers.jpg')} alt = "retailers"/>
       </div>
       <div className="text-1">
         <h4>This is a beautiful garden.</h4>
@@ -225,7 +225,7 @@ const Body = () => {
     </div>
     <div className="container-1">
       <div className="ret">
-        <img src={require('../images/images/traders.png')} alt = "retailers"/>
+        <img src={require('../images/images/traders.jpg')} alt = "retailers"/>
       </div>
       <div className="text-1">
         <h4>This is a beautiful garden.</h4>
@@ -238,7 +238,7 @@ const Body = () => {
         <div className="row">
           <div className="a-1 col-md-4">
             <img
-              src={require("../images/images/abif.png")}
+              src={require("../images/images/abif.jpg")}
               width={"180px"}
               height={"180px"}
               alt="abif"

@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
+  padding: 1rem 1rem 0.5rem 1rem;
   top: 0;
   position: fixed;
   z-index: 20;
@@ -20,16 +20,16 @@
 .nav-menu li a {
   font-size: 1.2rem;
   font-weight: 600;
-  color: white;
+  color: WHITE;
   text-decoration: none;
 }
 .nav-menu li a:hover {
-  color: #d14836;
+  color: #fca253;
 }
 .nav-menu li a::after {
   content: "";
   position: absolute;
-  background-color: #d14836;
+  background-color: #fca253;
   height: 2px;
   width: 0;
   left: 50%;
@@ -39,7 +39,7 @@
 }
 
 .nav-menu li a:hover {
-  color: #d14836;
+  color: #fca253;
 }
 .nav-menu li a:hover::after {
   width: 60%;
@@ -54,7 +54,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 60vh;
+    height: 80vh;
     background: rgba(255, 255, 255, 1);
     position: absolute;
     top: 80px;

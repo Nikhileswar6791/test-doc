@@ -23,10 +23,10 @@ const Form = () => {
       success.style.display = "block";
       emailjs
         .sendForm(
-          "service_fr1q2yo",
-          "template_in9sta7",
+          "service_hkr3p5g",
+          "template_oixgmgu",
           form.current,
-          "IwpSeR1C6g1SAhzah"
+          "OyStijACOhNSZ2tRe"
         )
         .then(
           (result) => {
@@ -39,65 +39,74 @@ const Form = () => {
     }
   };
   return (
-    <div className="row form">
-      <div className="col-md-6">
-        <h4 className="text">Would like to see a demo, Reach out to us</h4>
+    <div>
+      <div className="contact-img">
+        <img
+          src={require("../images/images/image15.jpg")}
+          width={"50%"}
+          alt="contact-img"
+        ></img>
       </div>
-      <div className="col-md-6">
-        <form ref={form} onSubmit={sendEmail}>
-          <div className="row mb-3">
-            <label for="Email" className="col-sm-2 col-form-label">
-              <p>Email</p>
-            </label>
-            <div className="col-sm-10">
-              <input
-                type="email"
-                name="Email"
-                className="form-control form-text"
-                id="Email"
-              />
+      <div className="row form">
+        <div className="col-md-6">
+          <h4 className="text">Would like to see a demo, Reach out to us</h4>
+        </div>
+        <div className="col-md-6">
+          <form ref={form} onSubmit={sendEmail}>
+            <div className="row mb-3">
+              <label for="Email" className="col-sm-2 col-form-label">
+                <p>Email</p>
+              </label>
+              <div className="col-sm-10">
+                <input
+                  type="email"
+                  name="Email"
+                  className="form-control form-text"
+                  id="Email"
+                />
+              </div>
             </div>
-          </div>
-          <div className="row mb-3">
-            <label for="Name" className="col-sm-2 col-form-label">
-              <p>Name</p>
-            </label>
-            <div className="col-sm-10">
-              <input
-                type="text"
-                name="Name"
-                className="form-control form-text"
-                id="Name"
-              />
+            <div className="row mb-3">
+              <label for="Name" className="col-sm-2 col-form-label">
+                <p>Name</p>
+              </label>
+              <div className="col-sm-10">
+                <input
+                  type="text"
+                  name="Name"
+                  className="form-control form-text"
+                  id="Name"
+                />
+              </div>
             </div>
-          </div>
-          <div className="row mb-3">
-            <label for="c-Name" className="col-sm-2 col-form-label">
-              <p>Company Name</p>
-            </label>
-            <div className="col-sm-10">
-              <input
-                type="text"
-                name="c-Name"
-                className="form-control form-text"
-                id="c-Name"
-              />
+            <div className="row mb-3">
+              <label for="c-Name" className="col-sm-2 col-form-label">
+                <p>Company Name</p>
+              </label>
+              <div className="col-sm-10">
+                <input
+                  type="text"
+                  name="c-Name"
+                  className="form-control form-text"
+                  id="c-Name"
+                />
+              </div>
             </div>
-          </div>
-          <div id="success">
-            <p>
-              <span role="img" aria-label="tick">
-                ✅
-              </span>
-              Thank you for submitting your details. We will reach out to you
-              soon.
-            </p>
-          </div>
-          <div id="danger">
-            <p>Fields can't be empty.</p>
-          </div>
-          <input type="submit" className="button" value="Book a Demo" />
-        </form>
+            <div id="success">
+              <p>
+                <span role="img" aria-label="tick">
+                  ✅
+                </span>
+                Thank you for submitting your details. We will reach out to you
+                soon.
+              </p>
+            </div>
+            <div id="danger">
+              <p>Fields can't be empty.</p>
+            </div>
+            <input type="submit" className="button" value="Book a Demo" />
+          </form>
+        </div>
       </div>
     </div>
   );

@@ -10,7 +10,7 @@ const Slider = () => {
         <Carousel.Item interval={1500}>
           <img
             className="d-block w-100"
-            src={require("../images/images/image1.png")}
+            src={require("../images/images/image1.jpg")}
             alt="One"
           />
           <Carousel.Caption className="text-img">
@@ -23,7 +23,7 @@ const Slider = () => {
         <Carousel.Item interval={1500}>
           <img
             className="d-block w-100"
-            src={require("../images/images/image3.png")}
+            src={require("../images/images/image3.jpg")}
             alt="Two"
           />
           <Carousel.Caption className="text-img">
@@ -33,7 +33,7 @@ const Slider = () => {
         <Carousel.Item interval={1500}>
           <img
             className="d-block w-100"
-            src={require("../images/images/image2.png")}
+            src={require("../images/images/image2.jpg")}
             alt="Three"
           />
           <Carousel.Caption className="text-img">
@@ -43,7 +43,7 @@ const Slider = () => {
         <Carousel.Item interval={1500}>
           <img
             className="d-block w-100"
-            src={require("../images/images/image19.png")}
+            src={require("../images/images/image19.jpg")}
             alt="Four"
           />
           <Carousel.Caption className="text-img">
@@ -53,7 +53,7 @@ const Slider = () => {
         <Carousel.Item interval={1500}>
           <img
             className="d-block w-100"
-            src={require("../images/images/image4.png")}
+            src={require("../images/images/image4.jpg")}
             alt="Five"
           />
           <Carousel.Caption className="text-img">
@@ -75,7 +75,7 @@ const Slider = () => {
         <Carousel.Item interval={1500}>
           <img
             className="d-block w-100"
-            src={require("../images/images/image5.png")}
+            src={require("../images/images/image5.jpg")}
             alt="Seven"
           />
           <Carousel.Caption className="text-img">

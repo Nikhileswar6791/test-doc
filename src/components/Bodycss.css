@@ -163,13 +163,13 @@ td {
   margin-bottom: 30px;
   color: white;
   padding: 10px 20px;
-  background-color: #5dbea3;
+  background-color: #fca253;
   border-radius: 40px;
-  border: 1px solid #5dbea3;
+  border: 1px solid #fca253;
   font-weight: 600;
 }
 .button:hover {
-  color: #5dbea3;
+  color: #fca253;
   background: transparent;
 }
 .form {
