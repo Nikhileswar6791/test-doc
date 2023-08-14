@@ -37,6 +37,20 @@
   transform: translateX(-50%);
   transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
 }
+.acctive span {
+  color: #fca253;
+}
+.acctive div {
+  content: "";
+  position: absolute;
+  background-color: #fca253;
+  height: 2px;
+  width: 60%;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
+}
 
 .nav-menu li a:hover {
   color: #fca253;

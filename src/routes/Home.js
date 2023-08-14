@@ -4,6 +4,7 @@ import Form from "../components/Form";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Slider from "../components/Slider";
+
 import "../styles.css";
 const Home = () => {
   return (

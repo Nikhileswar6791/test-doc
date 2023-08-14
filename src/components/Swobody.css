@@ -1,0 +1,46 @@
+.swo {
+  margin-top: 100px;
+  padding: 10px 30px;
+}
+.swo img {
+  max-width: 100%;
+}
+.swo p {
+  font-weight: 500;
+  font-size: larger;
+}
+
+.swo h4 {
+  color: #fca253;
+  margin-top: 15px;
+  padding-bottom: 20px;
+  font-weight: 600;
+}
+.top h4 {
+  margin-top: 15px;
+}
+.or {
+  color: #05386b;
+}
+.head {
+  color: #05386b;
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 20px;
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+.down {
+  margin-top: 50px;
+  text-align: center;
+}
+.types h4 {
+  margin-top: 30px;
+}
+
+@media screen and (min-width: 800px) and (max-width: 1000px) {
+  .swo {
+    margin-top: 150px;
+  }
+}

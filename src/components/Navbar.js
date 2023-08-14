@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import "./Navbarcss.css";
 import { FaBars, FaTimes } from "react-icons/fa";
-import { Link } from "react-router-dom/dist/umd/react-router-dom.development";
+import { NavLink } from "react-router-dom";
 const Navbar = () => {
   const [onclick, setclick] = useState(false);
   const handleclick = () => setclick(!onclick);
   return (
     <div className="header">
-      <Link href="/">
+      <NavLink href="/">
         {" "}
         <img
           src={require("../images/DOCTORSPECTRA-1.jpeg")}
@@ -15,25 +15,49 @@ const Navbar = () => {
           height="60px"
           alt="logo"
         />
-      </Link>
+      </NavLink>
       <ul className={onclick ? "nav-menu active" : "nav-menu"}>
         <li>
-          <Link to="/">Home</Link>
+          <NavLink
+            to="/"
+            className={({ isActive }) => (isActive ? "acctive" : "")}
+          >
+            <span>Home</span>
+            <div></div>
+          </NavLink>
         </li>
         <li>
-          <Link to="/Solutions we offer">Solutions we offer</Link>
+          <NavLink
+            className={({ isActive }) => (isActive ? "acctive" : "")}
+            to="/Solutions we offer"
+          >
+            <span>Solutions we offer</span>
+            <div></div>
+          </NavLink>
         </li>
         <li>
-          <Link to="/how technology works">How the technology works</Link>
+          <NavLink to="/how technology works">
+            <span>How the technology works</span>
+            <div></div>
+          </NavLink>
         </li>
         <li>
-          <Link to="/about">About</Link>
+          <NavLink to="/about">
+            <span>About</span>
+            <div></div>
+          </NavLink>
         </li>
         <li>
-          <Link to="/contact">Contact Us</Link>
+          <NavLink to="/contact">
+            <span>Contact Us</span>
+            <div></div>
+          </NavLink>
         </li>
         <li>
-          <Link to="/blogs">Blogs</Link>
+          <NavLink to="/blogs">
+            <span>Blogs</span>
+            <div></div>
+          </NavLink>
         </li>
       </ul>
       <div className="icon" onClick={handleclick}>
