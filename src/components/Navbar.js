@@ -36,25 +36,37 @@ const Navbar = () => {
           </NavLink>
         </li>
         <li>
-          <NavLink to="/how technology works">
+          <NavLink
+            className={({ isActive }) => (isActive ? "acctive" : "")}
+            to="/how technology works"
+          >
             <span>How the technology works</span>
             <div></div>
           </NavLink>
         </li>
         <li>
-          <NavLink to="/about">
+          <NavLink
+            className={({ isActive }) => (isActive ? "acctive" : "")}
+            to="/about"
+          >
             <span>About</span>
             <div></div>
           </NavLink>
         </li>
         <li>
-          <NavLink to="/contact">
+          <NavLink
+            className={({ isActive }) => (isActive ? "acctive" : "")}
+            to="/contact"
+          >
             <span>Contact Us</span>
             <div></div>
           </NavLink>
         </li>
         <li>
-          <NavLink to="/blogs">
+          <NavLink
+            className={({ isActive }) => (isActive ? "acctive" : "")}
+            to="/blogs"
+          >
             <span>Blogs</span>
             <div></div>
           </NavLink>

@@ -21,21 +21,20 @@ const Form = () => {
     } else {
       danger.style.display = "none";
       success.style.display = "block";
-      emailjs
-        .sendForm(
-          "service_hkr3p5g",
-          "template_oixgmgu",
-          form.current,
-          "OyStijACOhNSZ2tRe"
-        )
-        .then(
-          (result) => {
-            console.log(result.text);
-          },
-          (error) => {
-            console.log(error.text);
-          }
-        );
+      emailjs.sendForm(
+        "service_hkr3p5g",
+        "template_oixgmgu",
+        form.current,
+        "OyStijACOhNSZ2tRe"
+      );
+      // .then(
+      //   (result) => {
+      //     console.log(result.text);
+      //   },
+      //   (error) => {
+      //     console.log(error.text);
+      //   }
+      // );
     }
   };
   return (

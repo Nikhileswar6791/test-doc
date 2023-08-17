@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c40af480.css",
-    "main.js": "/static/js/main.15855a89.js",
+    "main.css": "/static/css/main.420fa212.css",
+    "main.js": "/static/js/main.a3ba3293.js",
     "static/media/image5.jpg": "/static/media/image5.1d33f07b03e609ec55c6.jpg",
     "static/media/image15.jpg": "/static/media/image15.48b907844940724d297a.jpg",
     "static/media/image1.jpg": "/static/media/image1.db2281eda80644593f1a.jpg",
@@ -12,11 +12,14 @@
     "static/media/swo-1.png": "/static/media/swo-1.c17834486bfd476c1729.png",
     "static/media/image6.jpg": "/static/media/image6.d5cee896ffef66f2d3bd.jpg",
     "static/media/swo-4-1.jpg": "/static/media/swo-4-1.5ac53b45f841e609372f.jpg",
+    "static/media/swo-5.png": "/static/media/swo-5.92499821c42f780f3acf.png",
+    "static/media/htw-3.png": "/static/media/htw-3.00d5fe99d0b41d49b4f7.png",
     "static/media/image8.jpg": "/static/media/image8.78e90474f52bf7c719e7.jpg",
     "static/media/swo-3.png": "/static/media/swo-3.41019e941c4ea3ac3aa6.png",
     "static/media/image19.jpg": "/static/media/image19.1253991ab240a10bba9f.jpg",
     "static/media/swo-5.jpg": "/static/media/swo-5.f4d68bb6c83fb4c1d89f.jpg",
     "static/media/swo-2.png": "/static/media/swo-2.5de78e053b594aa4d835.png",
+    "static/media/htw-2.png": "/static/media/htw-2.197b6c7b961151b0cacb.png",
     "static/media/food.jpg": "/static/media/food.d1d4d0c6b08cb482efb5.jpg",
     "static/media/owner.jpg": "/static/media/owner.a1963e3bd38cf86f9a5d.jpg",
     "static/media/retailers.jpg": "/static/media/retailers.b64de91cf70586c6cb60.jpg",
@@ -25,11 +28,11 @@
     "static/media/NSRCEL.jpg": "/static/media/NSRCEL.9784fe6e5f9c11a73d53.jpg",
     "static/media/exporters.jpg": "/static/media/exporters.74980d8b256b224ce4af.jpg",
     "index.html": "/index.html",
-    "main.c40af480.css.map": "/static/css/main.c40af480.css.map",
-    "main.15855a89.js.map": "/static/js/main.15855a89.js.map"
+    "main.420fa212.css.map": "/static/css/main.420fa212.css.map",
+    "main.a3ba3293.js.map": "/static/js/main.a3ba3293.js.map"
   },
   "entrypoints": [
-    "static/css/main.c40af480.css",
-    "static/js/main.15855a89.js"
+    "static/css/main.420fa212.css",
+    "static/js/main.a3ba3293.js"
   ]
 }
