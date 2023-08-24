@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Navbarcss.css";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
+import logo from "../images/logo-new-2.svg";
 const Navbar = () => {
   const [onclick, setclick] = useState(false);
   const handleclick = () => setclick(!onclick);
@@ -9,12 +10,7 @@ const Navbar = () => {
     <div className="header">
       <NavLink href="/">
         {" "}
-        <img
-          src={require("../images/DOCTORSPECTRA-1.jpeg")}
-          width="150px"
-          height="60px"
-          alt="logo"
-        />
+        <img width="200px" height="60px" src={logo} alt="logo" />
       </NavLink>
       <ul className={onclick ? "nav-menu active" : "nav-menu"}>
         <li>

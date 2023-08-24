@@ -16,7 +16,7 @@
 }
 .contact-head h4 {
   font-size: 2rem;
-  font-weight: 700;
+  font-weight: 600;
 }
 .contact-head p {
   font-size: 1.5rem;
@@ -94,20 +94,32 @@ textarea {
   .contact-body {
     height: 1150px;
   }
+  .form-check {
+    margin-left: 30px;
+  }
 }
 
 @media screen and (max-width: 300px) {
   .contact-head p {
     font-size: 1rem;
   }
+  .contact-head h4 {
+    font-size: 1.8rem;
+  }
+  .contact-form p {
+    font-size: 1rem;
+  }
   .contact-body {
     height: 1200px;
   }
   #contact-danger p {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
   #contact-success p {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
+  }
+  .form-check label {
+    font-size: 1rem;
   }
 }
 

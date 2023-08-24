@@ -3,6 +3,7 @@ import "./Bodycss.css";
 import "./Formcss.css";
 import "bootstrap/dist/css/bootstrap.css";
 import emailjs from "@emailjs/browser";
+import im_15 from "../images/useful_images_svg/image15.png";
 
 const Form = () => {
   const form = useRef();
@@ -40,11 +41,7 @@ const Form = () => {
   return (
     <div>
       <div className="contact-img">
-        <img
-          src={require("../images/images/image15.jpg")}
-          width={"50%"}
-          alt="contact-img"
-        ></img>
+        <img src={im_15} width={"50%"} alt="contact-img"></img>
       </div>
       <div className="row form">
         <div className="col-md-6">

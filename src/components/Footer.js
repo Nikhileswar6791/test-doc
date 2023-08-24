@@ -2,6 +2,7 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import "./Footercss.css";
 import { Link } from "react-router-dom";
+import logo from "../images/logo-new-2.svg";
 const Footer = () => {
   return (
     <div className="footer">
@@ -9,12 +10,7 @@ const Footer = () => {
         <div className="col-md-4 col-sm-4">
           <div className="row row-f logo">
             <Link to="/">
-              <img
-                src={require("../images/DOCTORSPECTRA-1.jpeg")}
-                width="100px"
-                height="30px"
-                alt="logo"
-              />
+              <img src={logo} width="100px" height="30px" alt="logo" />
             </Link>
           </div>
           <div className="row row-f">

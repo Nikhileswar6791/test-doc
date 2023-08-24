@@ -2,17 +2,20 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import Carousel from "react-bootstrap/Carousel";
 import "./Slidercss.css";
+import im_1 from "../images/useful_images_svg/image1.svg";
+import im_2 from "../images/useful_images_svg/image2.svg";
+import im_3 from "../images/useful_images_svg/image3.png";
+import im_19 from "../images/useful_images_svg/image19.svg";
+import im_4 from "../images/useful_images_svg/image4.svg";
+import im_6 from "../images/useful_images_svg/image6.svg";
+import im_5 from "../images/useful_images_svg/image5-bndOsaotH6-transformed.svg";
 const Slider = () => {
   return (
     <div className="slider" style={{ display: "block", width: "100%" }}>
       <h4>What do we Offer</h4>
       <Carousel variant="dark">
         <Carousel.Item interval={1500}>
-          <img
-            className="d-block w-100"
-            src={require("../images/images/image1.jpg")}
-            alt="One"
-          />
+          <img className="d-block w-100" src={im_1} alt="One" />
           <Carousel.Caption className="text-img">
             <h3>
               Non destructive way to check health of your fresh produce from the
@@ -21,51 +24,31 @@ const Slider = () => {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item interval={1500}>
-          <img
-            className="d-block w-100"
-            src={require("../images/images/image3.jpg")}
-            alt="Two"
-          />
+          <img className="d-block w-100" src={im_3} alt="Two" />
           <Carousel.Caption className="text-img">
             <h3>Scalable way of digitizing food quality</h3>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item interval={1500}>
-          <img
-            className="d-block w-100"
-            src={require("../images/images/image2.jpg")}
-            alt="Three"
-          />
+          <img className="d-block w-100" src={im_2} alt="Three" />
           <Carousel.Caption className="text-img">
             <h3>Reduce Food Wastage</h3>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item interval={1500}>
-          <img
-            className="d-block w-100"
-            src={require("../images/images/image19.jpg")}
-            alt="Four"
-          />
+          <img className="d-block w-100" src={im_19} alt="Four" />
           <Carousel.Caption className="text-img">
             <h3>Achieve fair pricing</h3>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item interval={1500}>
-          <img
-            className="d-block w-100"
-            src={require("../images/images/image4.jpg")}
-            alt="Five"
-          />
+          <img className="d-block w-100" src={im_4} alt="Five" />
           <Carousel.Caption className="text-img">
             <h3>Assess your entire produce in batches</h3>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item interval={1500}>
-          <img
-            className="d-block w-100"
-            src={require("../images/images/image6.jpg")}
-            alt="Six"
-          />
+          <img className="d-block w-100" src={im_6} alt="Six" />
           <Carousel.Caption className="text-img">
             <h3>
               Accurate, quantified and consistent way of assessing quality
@@ -73,11 +56,7 @@ const Slider = () => {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item interval={1500}>
-          <img
-            className="d-block w-100"
-            src={require("../images/images/image5.jpg")}
-            alt="Seven"
-          />
+          <img className="d-block w-100" src={im_5} alt="Seven" />
           <Carousel.Caption className="text-img">
             <h3>Analyze quality of multiple commodities with one app</h3>
           </Carousel.Caption>

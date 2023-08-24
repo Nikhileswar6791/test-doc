@@ -1,16 +1,18 @@
 import React from "react";
 import "./Bodycss.css";
 import "bootstrap/dist/css/bootstrap.css";
+import retailers from "../images/useful_images_svg/retailers.svg";
+import growers from "../images/useful_images_svg/growers.svg";
+import traders from "../images/useful_images_svg/traders.svg";
+import food from "../images/useful_images_svg/food.svg";
+import owner from "../images/useful_images_svg/owner.svg";
 const Food_chain = () => {
   return (
     <div>
       <div className="row ">
         <div className="col container-1">
           <div className="ret">
-            <img
-              src={require("../images/images/retailers.jpg")}
-              alt="retailers"
-            />
+            <img src={retailers} alt="retailers" />
           </div>
           <div className="text-1">
             <div className="inner">
@@ -33,7 +35,7 @@ const Food_chain = () => {
         <div className="col container-1">
           <div className="ret">
             <img
-              src={require("../images/images/exporters.jpg")}
+              src={require("../images/useful_images_svg/exporters.jpg")}
               alt="importers"
             />
           </div>
@@ -59,7 +61,7 @@ const Food_chain = () => {
       <div className="row ">
         <div className="col container-1">
           <div className="ret">
-            <img src={require("../images/images/growers.jpg")} alt="growers" />
+            <img src={growers} alt="growers" />
           </div>
           <div className="text-1">
             <div className="inner">
@@ -81,7 +83,7 @@ const Food_chain = () => {
         </div>
         <div className="col container-1">
           <div className="ret">
-            <img src={require("../images/images/traders.jpg")} alt="traders" />
+            <img src={traders} alt="traders" />
           </div>
           <div className="text-1">
             <div className="inner">
@@ -105,7 +107,7 @@ const Food_chain = () => {
       <div className="row">
         <div className="col container-1">
           <div className="ret">
-            <img src={require("../images/images/food.jpg")} alt="traders" />
+            <img src={food} alt="traders" />
           </div>
           <div className="text-1">
             <div className="inner">
@@ -127,7 +129,7 @@ const Food_chain = () => {
         </div>
         <div className="col container-1">
           <div className="ret">
-            <img src={require("../images/images/owner.jpg")} alt="traders" />
+            <img src={owner} alt="traders" />
           </div>
           <div className="text-1">
             <div className="inner">

@@ -19,12 +19,21 @@
   padding-left: 50px;
   padding-right: 50px;
 }
+.img-wrapper {
+  width: 100%;
+  height: 200px;
+  background-image: url(../images/useful_images_svg/image8.svg);
+  background-repeat: no-repeat;
+  padding: 0;
+  padding-bottom: 92%;
+}
 .Col-1,
 .Col-2 {
   background: rgba(255, 255, 255, 0.7);
   padding: 50px;
   border: 1px solid #05386b;
   border-radius: 20px;
+  height: 600px;
 }
 .Col-2 p {
   color: black;
@@ -191,7 +200,7 @@ td {
 }
 .awards p {
   color: black;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 1.2rem;
 }
 
@@ -203,12 +212,7 @@ td {
   .a-1 {
     padding: 30px 20px;
   }
-  .Col-1 img {
-    height: 270px;
-  }
-  .Col-2 img {
-    height: 270px;
-  }
+
   .Col-1 {
     margin-bottom: 30px;
   }
@@ -243,6 +247,16 @@ td {
   }
   .inner h4 {
     float: left;
+  }
+  .Body .text {
+    font-size: 1.5rem;
+    padding-bottom: 0px;
+  }
+  .Col-1 img {
+    height: 30%;
+  }
+  .Col-2 img {
+    height: 30%;
   }
 }
 @media screen and (max-width: 1024px) {

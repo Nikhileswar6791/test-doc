@@ -2,6 +2,11 @@ import React from "react";
 import "./Bodycss.css";
 import "bootstrap/dist/css/bootstrap.css";
 import Foodchain from "./Foodchain";
+import im_8 from "../images/useful_images_svg/image8.svg";
+import im_7 from "../images/useful_images_svg/image7.svg";
+import abif from "../images/useful_images_svg/abif.svg";
+import nsrcel from "../images/useful_images_svg/NSRCEL.svg";
+import ficci from "../images/useful_images_svg/FICCI.svg";
 const Body = () => {
   return (
     <div className="Body">
@@ -9,11 +14,12 @@ const Body = () => {
       <div className="row Main">
         <div className="col-md-5 Col-1">
           <img
-            src={require("../images/images/image8.jpg")}
+            src={im_8}
             width={"100%"}
-            height={"300px"}
+            height={"50%"}
             alt="Spectral Imaging"
           ></img>
+          {/* <div className="img-wrapper"></div> */}
           <p>
             We use the novel technology of Hyperspectral imaging to check the
             freshness of your produce from the inside coupled with image
@@ -22,11 +28,12 @@ const Body = () => {
         </div>
         <div className="col-md-5 Col-2">
           <img
-            src={require("../images/images/image7.jpg")}
+            src={im_7}
             width={"100%"}
-            height={"300px"}
+            height={"50%"}
             alt="Spectral Imaging"
           ></img>
+          {/* <div className="img-wrapper"></div> */}
           <p>
             This is layered further with artificial intelligence which processes
             the data and gives accurate results on specific contents of the
@@ -95,30 +102,15 @@ const Body = () => {
         <h4 className="text">Awards and Recognitions</h4>
         <div className="row">
           <div className="a-1 col-md-4">
-            <img
-              src={require("../images/images/abif.jpg")}
-              width={"180px"}
-              height={"180px"}
-              alt="abif"
-            ></img>
+            <img src={abif} width={"180px"} height={"180px"} alt="abif"></img>
             <p> Incubated with ABIF IIT Kharagpur</p>
           </div>
           <div className="a-1 col-md-4">
-            <img
-              src={require("../images/images/NSRCEL.jpg")}
-              width={"180px"}
-              height={"180px"}
-              alt="abif"
-            ></img>
+            <img src={nsrcel} width={"180px"} height={"180px"} alt="abif"></img>
             <p>Incubated with NSRCEL IIM Bangalore</p>
           </div>
           <div className="a-1 col-md-4">
-            <img
-              src={require("../images/images/FICCI.jpg")}
-              width={"180px"}
-              height={"180px"}
-              alt="abif"
-            ></img>
+            <img src={ficci} width={"180px"} height={"180px"} alt="abif"></img>
             <p>FICCI IndusInd event Startup Hub</p>
           </div>
         </div>
