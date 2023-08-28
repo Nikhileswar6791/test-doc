@@ -35,3 +35,6 @@ ul {
 .space-30 {
   height: 30px;
 }
+.react-multiple-carousel__arrow {
+  z-index: 10 !important;
+}

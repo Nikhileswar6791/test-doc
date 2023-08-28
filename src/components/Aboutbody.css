@@ -1,0 +1,52 @@
+.about {
+  margin-top: 100px;
+  padding: 10px 30px;
+  margin-bottom: 50px;
+}
+.about p {
+  font-weight: 500;
+  font-size: larger;
+}
+.about h4 {
+  text-align: center;
+  color: #d14836;
+}
+.stHead {
+  margin-bottom: 30px;
+}
+.ndHead {
+  margin-bottom: 60px;
+}
+.about-contact {
+  margin-top: 100px;
+  text-align: center;
+}
+.about-contact a {
+  text-decoration: none;
+}
+.button-div {
+  margin-top: 60px;
+}
+.team {
+  margin-top: 100px;
+}
+.team img {
+  width: 70%;
+  height: 70%;
+  border-radius: 100%;
+}
+
+.about-name {
+  padding-top: 10px;
+  color: #05386b;
+}
+/* .team p {
+  padding-top: 5px;
+} */
+.intern {
+  margin-top: 100px;
+}
+.intern img {
+  height: 60%;
+  width: 60%;
+}

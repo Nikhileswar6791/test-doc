@@ -203,6 +203,9 @@ td {
   font-weight: 600;
   font-size: 1.2rem;
 }
+.cour_item {
+  text-align: center;
+}
 
 @media screen and (max-width: 840px) {
   .a-1 img {
@@ -221,6 +224,21 @@ td {
     padding-right: 2.5px;
   }
   .inner h4 {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 550px) {
+  .react-multiple-carousel__arrow--right {
+    right: 0 !important;
+  }
+  .react-multiple-carousel__arrow--left {
+    left: 0 !important;
+  }
+  .cour_item img {
+    width: 130px;
+    height: 130px;
+  }
+  .awards p {
     font-size: 1rem;
   }
 }
@@ -258,7 +276,26 @@ td {
   .Col-2 img {
     height: 30%;
   }
+  .react-multiple-carousel__arrow {
+    min-height: 30px !important;
+    min-width: 30px !important;
+  }
+  .react-multiple-carousel__arrow--right {
+    right: 0 !important;
+  }
+  .react-multiple-carousel__arrow--left {
+    left: 0 !important;
+  }
+
+  .cour_item img {
+    width: 130px;
+    height: 130px;
+  }
+  .awards p {
+    font-size: 1rem;
+  }
 }
+
 @media screen and (max-width: 1024px) {
   .ret img {
     height: 150px;

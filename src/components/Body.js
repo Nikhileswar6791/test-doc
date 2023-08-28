@@ -1,13 +1,36 @@
 import React from "react";
 import "./Bodycss.css";
 import "bootstrap/dist/css/bootstrap.css";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 import Foodchain from "./Foodchain";
 import im_8 from "../images/useful_images_svg/image8.svg";
 import im_7 from "../images/useful_images_svg/image7.svg";
 import abif from "../images/useful_images_svg/abif.svg";
 import nsrcel from "../images/useful_images_svg/NSRCEL.svg";
 import ficci from "../images/useful_images_svg/FICCI.svg";
+import thub from "../images/useful_images_svg/Thub.svg";
+import ikp from "../images/useful_images_svg/IKP.svg";
 const Body = () => {
+  const responsive = {
+    superLargeDesktop: {
+      // the naming can be any, depends on you.
+      breakpoint: { max: 4000, min: 3000 },
+      items: 5,
+    },
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 3,
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 2,
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1,
+    },
+  };
   return (
     <div className="Body">
       <h4 className="text">How the technology works</h4>
@@ -61,7 +84,6 @@ const Body = () => {
     </div>
 </div> */}
       <hr className="hr"></hr>
-
       <h4 className="text">Solutions for entire food supply chain</h4>
       <Foodchain />
       {/* <div className="container-1 ">
@@ -96,9 +118,46 @@ const Body = () => {
         <h4>This is a beautiful garden.</h4>
       </div>
     </div> */}
-
       <hr className="hr"></hr>
       <div className="awards">
+        <h4 className="text">Awards and Recognitions</h4>
+        <Carousel
+          responsive={responsive}
+          rewind={true}
+          infinite={true}
+          autoPlay={true}
+          autoPlaySpeed={3000}
+          swipeable={true}
+          draggable={true}
+          arrows={true}
+          // transitionDuration={1050}
+          // customTransition="transform 1050ms ease-in-out"
+          slidesToSlide={1}
+        >
+          <div className="cour_item">
+            <img src={abif} width={"180px"} height={"180px"} alt="abif"></img>
+            <p> Incubated with ABIF IIT Kharagpur</p>
+          </div>
+          <div className="cour_item">
+            <img src={nsrcel} width={"180px"} height={"180px"} alt="abif"></img>
+            <p>Incubated with NSRCEL IIM Bangalore</p>
+          </div>
+          <div className="cour_item">
+            {" "}
+            <img src={ficci} width={"180px"} height={"180px"} alt="abif"></img>
+            <p>FICCI IndusInd event Startup Hub</p>
+          </div>
+          <div className="cour_item">
+            <img src={thub} width={"180px"} height={"180px"} alt="abif"></img>
+            <p>Incubated with T hub</p>
+          </div>
+          <div className="cour_item">
+            <img src={ikp} width={"180px"} height={"180px"} alt="abif"></img>
+            <p>Incubated with IKP Genome Valley, Hyderabad</p>
+          </div>
+        </Carousel>
+      </div>
+      {/* <div className="awards">
         <h4 className="text">Awards and Recognitions</h4>
         <div className="row">
           <div className="a-1 col-md-4">
@@ -114,7 +173,7 @@ const Body = () => {
             <p>FICCI IndusInd event Startup Hub</p>
           </div>
         </div>
-      </div>
+      </div> */}
       <hr className="hr"></hr>
     </div>
   );
