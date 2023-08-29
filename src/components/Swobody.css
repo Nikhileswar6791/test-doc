@@ -45,11 +45,11 @@
   margin-top: 30px;
 }
 
-@media screen and (min-width: 800px) and (max-width: 1000px) {
+/* @media screen and (min-width: 800px) and (max-width: 1000px) {
   .swo {
     margin-top: 150px;
   }
-}
+} */
 @media screen and (max-width: 541px) {
   .mid {
     margin-bottom: 50px;

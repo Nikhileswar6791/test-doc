@@ -11,11 +11,16 @@
   text-align: center;
   color: #d14836;
 }
+.about-contact h4 {
+  font-weight: 600;
+}
 .stHead {
   margin-bottom: 30px;
 }
-.ndHead {
+.about-contact .ndHead {
   margin-bottom: 60px;
+  color: #05386b;
+  font-weight: 500;
 }
 .about-contact {
   margin-top: 100px;
@@ -24,15 +29,16 @@
 .about-contact a {
   text-decoration: none;
 }
+
 .button-div {
-  margin-top: 60px;
+  margin-top: 30px;
 }
 .team {
   margin-top: 100px;
 }
 .team img {
-  width: 70%;
-  height: 70%;
+  width: 200px;
+  height: 200px;
   border-radius: 100%;
 }
 
@@ -46,7 +52,70 @@
 .intern {
   margin-top: 100px;
 }
+.intern .about-name {
+  font-size: 1.4rem;
+}
+.core .about-name {
+  font-size: 1.4rem;
+}
+/* .core,
+.intern {
+  
+} */
+/* .space-about {
+  width: 10px;
+} */
+.core-in {
+  margin: 10px;
+  padding: 20px;
+  box-shadow: 0px 0px 15px -2px #444444;
+  height: 450px;
+  position: relative;
+}
+.linkedin {
+  text-align: left;
+  bottom: 10px;
+  position: absolute;
+}
+
 .intern img {
-  height: 60%;
-  width: 60%;
+  height: 200px;
+  width: 200px;
+}
+@media screen and (max-width: 950px) {
+  .intern {
+    margin-top: 0px;
+  }
+}
+@media screen and (min-width: 1000px) and (max-width: 1250px) {
+  .team img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+  }
+  .intern img {
+    height: 180px;
+    width: 180px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .team img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+  }
+  .intern img {
+    height: 150px;
+    width: 150px;
+  }
+  .core-in {
+    height: 380px;
+  }
+  .intern p,
+  .core p {
+    font-size: 1rem;
+  }
+  .core-in .about-name {
+    font-size: 1.1rem;
+  }
 }

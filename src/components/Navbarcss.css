@@ -62,7 +62,7 @@
   display: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1050px) {
   .nav-menu {
     flex-direction: column;
     justify-content: center;
@@ -89,6 +89,12 @@
   .icon {
     display: initial;
     transition: 0, 5s ease-in-out;
+  }
+}
+@media screen and (min-width: 800px) and (max-width: 1000px) {
+  .nav-menu li a {
+    font-size: 2rem;
+    color: black;
   }
 }
 @media screen and (max-width: 300px) {

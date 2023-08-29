@@ -1,7 +1,7 @@
 import React from "react";
 import "./Htwbody.css";
-import swo_5 from "../images/useful_images_svg/swo-5.svg";
-import htw_1 from "../images/useful_images_svg/htw-2.svg";
+import swo_5 from "../images/useful_images_svg/swo-5.webp";
+import htw_1 from "../images/useful_images_svg/htw-2.webp";
 import htw_2 from "../images/useful_images_svg/htw-3.png";
 const Htwbody = () => {
   return (

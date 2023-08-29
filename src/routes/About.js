@@ -1,14 +1,13 @@
 import React from "react";
-// import Navbar from "../components/Navbar";
-// import Footer from "../components/Footer";
-// import Aboutbody from "../components/Aboutbody";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+import Aboutbody from "../components/Aboutbody";
 const About = () => {
   return (
     <div>
-      {/* <Navbar />
+      <Navbar />
       <Aboutbody />
-      <Footer /> */}
-      About
+      <Footer />
     </div>
   );
 };

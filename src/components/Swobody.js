@@ -4,9 +4,9 @@ import "bootstrap/dist/css/bootstrap.css";
 import "./Bodycss.css";
 import Foodchain from "./Foodchain";
 import "../styles.css";
-import swo_1 from "../images/useful_images_svg/swo-1.svg";
-import swo_2 from "../images/useful_images_svg/swo-2.svg";
-import swo_3 from "../images/useful_images_svg/swo-3.svg";
+import swo_1 from "../images/useful_images_svg/swo-1.webp";
+import swo_2 from "../images/useful_images_svg/swo-2.webp";
+import swo_3 from "../images/useful_images_svg/swo-3.webp";
 import swo_4 from "../images/useful_images_svg/swo-4.svg";
 import swo_5 from "../images/useful_images_svg/swo-5.svg";
 const Swo_body = () => {

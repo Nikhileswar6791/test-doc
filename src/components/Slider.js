@@ -2,13 +2,13 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import Carousel from "react-bootstrap/Carousel";
 import "./Slidercss.css";
-import im_1 from "../images/useful_images_svg/image1.svg";
-import im_2 from "../images/useful_images_svg/image2.svg";
+import im_1 from "../images/useful_images_svg/image1.webp";
+import im_2 from "../images/useful_images_svg/image2.webp";
 import im_3 from "../images/useful_images_svg/image3.png";
-import im_19 from "../images/useful_images_svg/image19.svg";
-import im_4 from "../images/useful_images_svg/image4.svg";
-import im_6 from "../images/useful_images_svg/image6.svg";
-import im_5 from "../images/useful_images_svg/image5-bndOsaotH6-transformed.svg";
+import im_19 from "../images/useful_images_svg/image19.webp";
+import im_4 from "../images/useful_images_svg/image4.webp";
+import im_6 from "../images/useful_images_svg/image6.webp";
+import im_5 from "../images/useful_images_svg/image5-bndOsaotH6-transformed.webp";
 const Slider = () => {
   return (
     <div className="slider" style={{ display: "block", width: "100%" }}>

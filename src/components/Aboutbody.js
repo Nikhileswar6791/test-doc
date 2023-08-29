@@ -1,12 +1,13 @@
 import React from "react";
 import "./Aboutbody.css";
-import about_1 from "../images/useful_images_svg/about_1.png";
-import about_2 from "../images/useful_images_svg/about_2.png";
-import about_3 from "../images/useful_images_svg/about_3.png";
-import about_4 from "../images/useful_images_svg/about_4.png";
-import about_5 from "../images/useful_images_svg/about_5.png";
-import about_6 from "../images/useful_images_svg/about_6.png";
-import about_7 from "../images/useful_images_svg/about_7.png";
+import about_1 from "../images/useful_images_svg/about-1.webp";
+import about_2 from "../images/useful_images_svg/about-2.webp";
+import about_3 from "../images/useful_images_svg/about-3.webp";
+import about_4 from "../images/useful_images_svg/about-4.webp";
+import about_5 from "../images/useful_images_svg/about-5.webp";
+import about_6 from "../images/useful_images_svg/about-6.webp";
+import about_7 from "../images/useful_images_svg/about-7.webp";
+import { SocialIcon } from "react-social-icons";
 const Aboutbody = () => {
   return (
     <div className="about">
@@ -22,67 +23,135 @@ const Aboutbody = () => {
         DoctorSpectra, we are committed to driving innovations for scalable,
         fast and non destructive ways of doing food quality assessment.
       </p>
-      <p style={{ color: "#fca253", textAlign: "center" }}>
+      <p style={{ color: "#fca253", textAlign: "center", fontSize: "1.5rem" }}>
         A team united by the passion for the unseen!!
       </p>
       <hr className="hr"></hr>
       <div className="team">
         <div className="row">
-          <div className="col-md-3">
-            <img src={about_1} alt="rati"></img>
-            <p className="about-name">Rati Gugnani</p>
-            <p> CEO and founder</p>
+          <div className="col-lg-3 core">
+            <div className="core-in">
+              <img src={about_1} alt="rati"></img>
+              <p className="about-name">Rati Gugnani</p>
+              <p> CEO and founder</p>
+              <div className="linkedin">
+                <SocialIcon
+                  url="https://www.linkedin.com/in/rati-gugnani-18a42612/"
+                  bgColor="white"
+                  fgColor="#fca253"
+                />
+              </div>
+            </div>
           </div>
-          <div className="col-md-3">
-            <img src={about_2} alt="rati"></img>
-            <p className="about-name">Rakesh TP</p>
-            <p>Angel Investor and Chief advisor – Data Science</p>
+
+          <div className="col-lg-3 core">
+            <div className="core-in">
+              <img src={about_2} alt="rati"></img>
+              <p className="about-name">Rakesh TP</p>
+              <p>Angel Investor and Chief advisor – Data Science</p>
+              <div className="linkedin">
+                <SocialIcon
+                  url="https://www.linkedin.com/in/rakesh-tp-ba981515/"
+                  bgColor="white"
+                  fgColor="#fca253"
+                />
+              </div>
+            </div>
           </div>
-          <div className="col-md-3">
-            <img src={about_3} alt="rati"></img>
-            <p className="about-name">Ankit Saxena</p>
-            <p>Angel Investor and Chief advisor – Technology</p>
+
+          <div className="col-lg-3 core">
+            <div className="core-in">
+              <img src={about_3} alt="rati"></img>
+              <p className="about-name">Ankit Saxena</p>
+              <p>Angel Investor and Chief advisor – Technology</p>
+              <div className="linkedin">
+                <SocialIcon
+                  url="https://www.linkedin.com/in/ankitsaxena2/"
+                  bgColor="white"
+                  fgColor="#fca253"
+                />
+              </div>
+            </div>
           </div>
-          <div className="col-md-3">
-            <img src={about_4} alt="rati"></img>
-            <p className="about-name">Gayatri Mishra</p>
-            <p>Technical Advisor - Spectral Imaging</p>
+
+          <div className="col-lg-3 core">
+            <div className="core-in">
+              <img src={about_4} alt="rati"></img>
+              <p className="about-name">Gayatri Mishra</p>
+              <p>Technical Advisor - Spectral Imaging</p>
+              <div className="linkedin">
+                <SocialIcon
+                  url="https://www.linkedin.com/in/dr-gayatri-mishra-7a409379/"
+                  bgColor="white"
+                  fgColor="#fca253"
+                />
+              </div>
+            </div>
           </div>
-          <div className="col-md-4 intern">
-            <img src={about_5} alt="rati"></img>
-            <p className="about-name">Vaibhav Bisht</p>
-            <p>ML Intern</p>
+
+          <div className="col-lg-4 intern">
+            <div className="core-in">
+              <img src={about_5} alt="rati"></img>
+              <p className="about-name">Vaibhav Bisht</p>
+              <p>ML Intern</p>
+              <div className="linkedin">
+                <SocialIcon
+                  url="https://www.linkedin.com/in/vaibhav-bisht-865876148/"
+                  bgColor="white"
+                  fgColor="#fca253"
+                />
+              </div>
+            </div>
           </div>
-          <div className="col-md-4 intern">
-            <img src={about_6} alt="rati"></img>
-            <p className="about-name">Nikhileswar Reddy P</p>
-            <p>Web Development Intern</p>
+
+          <div className="col-lg-4 intern">
+            <div className="core-in">
+              <img src={about_6} alt="rati"></img>
+              <p className="about-name">Nikhileswar Reddy P</p>
+              <p>Web Development Intern</p>
+              <div className="linkedin">
+                <SocialIcon
+                  url="https://www.linkedin.com/in/nikhileswar-reddy-pochimireddy-46682720b/"
+                  bgColor="white"
+                  fgColor="#fca253"
+                />
+              </div>
+            </div>
           </div>
-          <div className="col-md-4 intern">
-            <img src={about_7} alt="rati"></img>
-            <p className="about-name">Dharani Samsritha</p>
-            <p>App Development Intern</p>
+
+          <div className="col-lg-4 intern">
+            <div className="core-in">
+              <img src={about_7} alt="rati"></img>
+              <p className="about-name">Dharani Samsritha</p>
+              <p>App Development Intern</p>
+              <div className="linkedin">
+                <SocialIcon
+                  url="https://www.linkedin.com/in/dharani-samsritha/"
+                  bgColor="white"
+                  fgColor="#fca253"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </div>
       <hr className="hr"></hr>
       <div className="about-contact row">
-        <div className="col-md-6">
-          <h4 className="stHead">
-            Would like to know more about us? Contact us!
-          </h4>
-          <h4 className="ndHead">
-            We would love to have a chat with you. Wait no more, contact us
-            today!
-          </h4>
+        {/* <div className="col-md-6"> */}
+        <h4 className="stHead">
+          Would like to know more about us? Contact us!
+        </h4>
+        <h4 className="ndHead">
+          We would love to have a chat with you. Wait no more, contact us today!
+        </h4>
+        {/* </div> */}
+        {/* <div className="col-md-6"> */}
+        <div className="button-div">
+          <a href="/contact" className="button">
+            Get in Touch
+          </a>
         </div>
-        <div className="col-md-6">
-          <div className="button-div">
-            <a href="/contact" className="button">
-              Get in Touch
-            </a>
-          </div>
-        </div>
+        {/* </div> */}
       </div>
     </div>
   );

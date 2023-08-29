@@ -6,11 +6,11 @@ import "react-multi-carousel/lib/styles.css";
 import Foodchain from "./Foodchain";
 import im_8 from "../images/useful_images_svg/image8.svg";
 import im_7 from "../images/useful_images_svg/image7.svg";
-import abif from "../images/useful_images_svg/abif.svg";
-import nsrcel from "../images/useful_images_svg/NSRCEL.svg";
-import ficci from "../images/useful_images_svg/FICCI.svg";
-import thub from "../images/useful_images_svg/Thub.svg";
-import ikp from "../images/useful_images_svg/IKP.svg";
+import abif from "../images/useful_images_svg/abif.webp";
+import nsrcel from "../images/useful_images_svg/NSRCEL.webp";
+import ficci from "../images/useful_images_svg/FICCI.webp";
+import thub from "../images/useful_images_svg/Thub.webp";
+import ikp from "../images/useful_images_svg/IKP.webp";
 const Body = () => {
   const responsive = {
     superLargeDesktop: {
