@@ -11,6 +11,8 @@ import nsrcel from "../images/useful_images_svg/NSRCEL.webp";
 import ficci from "../images/useful_images_svg/FICCI.webp";
 import thub from "../images/useful_images_svg/Thub.webp";
 import ikp from "../images/useful_images_svg/IKP.webp";
+import dpiit from "../images/useful_images_svg/dpiit.webp";
+import start_up from "../images/useful_images_svg/start_up.webp";
 const Body = () => {
   const responsive = {
     superLargeDesktop: {
@@ -154,6 +156,19 @@ const Body = () => {
           <div className="cour_item">
             <img src={ikp} width={"180px"} height={"180px"} alt="abif"></img>
             <p>Incubated with IKP Genome Valley, Hyderabad</p>
+          </div>
+          <div className="cour_item">
+            <img
+              src={start_up}
+              width={"200px"}
+              height={"180px"}
+              alt="abif"
+            ></img>
+            <p>Incubated with startupindia</p>
+          </div>
+          <div className="cour_item">
+            <img src={dpiit} width={"180px"} height={"180px"} alt="abif"></img>
+            <p>Incubated with DPIIT</p>
           </div>
         </Carousel>
       </div>
