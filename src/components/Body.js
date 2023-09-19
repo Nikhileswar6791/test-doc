@@ -43,7 +43,7 @@ const Body = () => {
         <div className="col-md-5 Col-1">
           <LazyLoadImage
             src={im_8}
-            width={"60%"}
+            width={"65%"}
             height={"60%"}
             alt="Spectral Imaging"
             loading="lazy"
