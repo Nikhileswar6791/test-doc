@@ -4,7 +4,7 @@ import "./Formcss.css";
 import "bootstrap/dist/css/bootstrap.css";
 import emailjs from "@emailjs/browser";
 import im_15 from "../images/useful_images_svg/image15.png";
-
+import { LazyLoadImage } from "react-lazy-load-image-component";
 const Form = () => {
   const form = useRef();
 
@@ -41,7 +41,11 @@ const Form = () => {
   return (
     <div>
       <div className="contact-img">
-        <img src={im_15} width={"50%"} alt="contact-img"></img>
+        <LazyLoadImage
+          src={im_15}
+          width={"50%"}
+          alt="contact-img"
+        ></LazyLoadImage>
       </div>
       <div className="row form">
         <div className="col-md-6">

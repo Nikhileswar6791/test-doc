@@ -2,7 +2,8 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import "./Footercss.css";
 import { Link } from "react-router-dom";
-import logo from "../images/logo-new-2.svg";
+import logo from "../images/logo.svg";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 const Footer = () => {
   return (
     <div className="footer">
@@ -10,7 +11,12 @@ const Footer = () => {
         <div className="col-md-4 col-sm-4">
           <div className="row row-f logo">
             <Link to="/">
-              <img src={logo} width="100px" height="30px" alt="logo" />
+              <LazyLoadImage
+                src={logo}
+                width="100px"
+                height="30px"
+                alt="logo"
+              />
             </Link>
           </div>
           <div className="row row-f">

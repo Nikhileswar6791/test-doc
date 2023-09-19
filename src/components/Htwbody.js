@@ -3,6 +3,7 @@ import "./Htwbody.css";
 import swo_5 from "../images/useful_images_svg/swo-5.webp";
 import htw_1 from "../images/useful_images_svg/htw-2.webp";
 import htw_2 from "../images/useful_images_svg/htw-3.png";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 const Htwbody = () => {
   return (
     <div className="htw">
@@ -24,21 +25,29 @@ const Htwbody = () => {
               scan of intended object
             </h4>
           </span>
-          <img src={swo_5} alt="measure"></img>
+          <LazyLoadImage src={swo_5} alt="measure"></LazyLoadImage>
         </div>
         <div className="col-lg-4 col-md-6">
           <h4>
             Layer the data with{" "}
             <span className="or">AI and computer vision</span>
           </h4>
-          <img className="mid-htw" src={htw_1} alt="ckeck"></img>
+          <LazyLoadImage
+            className="mid-htw"
+            src={htw_1}
+            alt="ckeck"
+          ></LazyLoadImage>
         </div>
         <div className="col-lg-4 col-md-12">
           <h4>
             <span className="or">Analyse data</span> to identify key metrics
             like moisture, fructose, contaminants etc
           </h4>
-          <img className="down-htw" src={htw_2} alt="action"></img>
+          <LazyLoadImage
+            className="down-htw"
+            src={htw_2}
+            alt="action"
+          ></LazyLoadImage>
         </div>
       </div>
       <hr className="hr"></hr>

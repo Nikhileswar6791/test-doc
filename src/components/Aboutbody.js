@@ -7,6 +7,7 @@ import about_4 from "../images/useful_images_svg/about-4.webp";
 import about_5 from "../images/useful_images_svg/about-5.webp";
 import about_6 from "../images/useful_images_svg/about-6.webp";
 import about_7 from "../images/useful_images_svg/about-7.webp";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import { SocialIcon } from "react-social-icons";
 const Aboutbody = () => {
   return (
@@ -31,7 +32,11 @@ const Aboutbody = () => {
         <div className="row">
           <div className="col-lg-3 core">
             <div className="core-in">
-              <img src={about_1} alt="rati"></img>
+              <LazyLoadImage
+                src={about_1}
+                alt="rati"
+                loading="lazy"
+              ></LazyLoadImage>
               <p className="about-name">Rati Gugnani</p>
               <p> CEO and founder</p>
               <div className="linkedin">
@@ -46,7 +51,11 @@ const Aboutbody = () => {
 
           <div className="col-lg-3 core">
             <div className="core-in">
-              <img src={about_2} alt="rati"></img>
+              <LazyLoadImage
+                src={about_2}
+                alt="rati"
+                loading="lazy"
+              ></LazyLoadImage>
               <p className="about-name">Rakesh TP</p>
               <p>Angel Investor and Chief advisor – Data Science</p>
               <div className="linkedin">
@@ -61,7 +70,11 @@ const Aboutbody = () => {
 
           <div className="col-lg-3 core">
             <div className="core-in">
-              <img src={about_3} alt="rati"></img>
+              <LazyLoadImage
+                src={about_3}
+                alt="rati"
+                loading="lazy"
+              ></LazyLoadImage>
               <p className="about-name">Ankit Saxena</p>
               <p>Angel Investor and Chief advisor – Technology</p>
               <div className="linkedin">
@@ -76,7 +89,11 @@ const Aboutbody = () => {
 
           <div className="col-lg-3 core">
             <div className="core-in">
-              <img src={about_4} alt="rati"></img>
+              <LazyLoadImage
+                src={about_4}
+                alt="rati"
+                loading="lazy"
+              ></LazyLoadImage>
               <p className="about-name">Gayatri Mishra</p>
               <p>Technical Advisor - Spectral Imaging</p>
               <div className="linkedin">
@@ -91,7 +108,11 @@ const Aboutbody = () => {
 
           <div className="col-lg-4 intern">
             <div className="core-in">
-              <img src={about_5} alt="rati"></img>
+              <LazyLoadImage
+                src={about_5}
+                alt="rati"
+                loading="lazy"
+              ></LazyLoadImage>
               <p className="about-name">Vaibhav Bisht</p>
               <p>ML Intern</p>
               <div className="linkedin">
@@ -106,7 +127,11 @@ const Aboutbody = () => {
 
           <div className="col-lg-4 intern">
             <div className="core-in">
-              <img src={about_6} alt="rati"></img>
+              <LazyLoadImage
+                src={about_6}
+                alt="rati"
+                loading="lazy"
+              ></LazyLoadImage>
               <p className="about-name">Nikhileswar Reddy P</p>
               <p>Web Development Intern</p>
               <div className="linkedin">
@@ -121,7 +146,11 @@ const Aboutbody = () => {
 
           <div className="col-lg-4 intern">
             <div className="core-in">
-              <img src={about_7} alt="rati"></img>
+              <LazyLoadImage
+                src={about_7}
+                alt="rati"
+                loading="lazy"
+              ></LazyLoadImage>
               <p className="about-name">Dharani Samsritha</p>
               <p>App Development Intern</p>
               <div className="linkedin">

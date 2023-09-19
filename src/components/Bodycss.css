@@ -204,6 +204,15 @@ td {
   font-weight: 600;
   font-size: 1.2rem;
 }
+#right {
+  float: right;
+}
+#left {
+  float: left;
+}
+.center_img {
+  padding-top: 10px;
+}
 .cour_item {
   text-align: center;
 }
@@ -226,6 +235,15 @@ td {
   }
   .inner h4 {
     font-size: 1rem;
+  }
+  #left {
+    float: none;
+  }
+  .left {
+    display: none;
+  }
+  #right {
+    float: none;
   }
 }
 @media screen and (min-width: 500px) and (max-width: 550px) {

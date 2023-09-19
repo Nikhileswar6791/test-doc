@@ -9,6 +9,7 @@ import swo_2 from "../images/useful_images_svg/swo-2.webp";
 import swo_3 from "../images/useful_images_svg/swo-3.webp";
 import swo_4 from "../images/useful_images_svg/swo-4.svg";
 import swo_5 from "../images/useful_images_svg/swo-5.svg";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 const Swo_body = () => {
   return (
     <div>
@@ -30,19 +31,27 @@ const Swo_body = () => {
                 <span className="or"> Measure</span> the quality of your produce
               </h4>
             </span>
-            <img src={swo_1} alt="measure"></img>
+            <LazyLoadImage src={swo_1} alt="measure"></LazyLoadImage>
           </div>
           <div className="col-lg-4 col-md-6">
             <h4>
               <span className="or">Identify</span> the quality issues
             </h4>
-            <img className="mid" src={swo_2} alt="ckeck"></img>
+            <LazyLoadImage
+              className="mid"
+              src={swo_2}
+              alt="ckeck"
+            ></LazyLoadImage>
           </div>
           <div className="col-lg-4 col-md-12">
             <h4>
               Take <span className="or">Action</span>
             </h4>
-            <img className="down" src={swo_3} alt="action"></img>
+            <LazyLoadImage
+              className="down"
+              src={swo_3}
+              alt="action"
+            ></LazyLoadImage>
           </div>
         </div>
         <hr className="hr"></hr>
@@ -60,7 +69,12 @@ const Swo_body = () => {
               produce at different speeds. Example – If you require 2 key
               metrics to be analyse, you can scan 20 units per second.
             </p>
-            <img src={swo_4} width={"300px"} height={"400px"} alt="bulk"></img>
+            <LazyLoadImage
+              src={swo_4}
+              width={"300px"}
+              height={"400px"}
+              alt="bulk"
+            ></LazyLoadImage>
           </div>
           <div className="col-md-6">
             <h4>Unit level analysis</h4>
@@ -68,7 +82,12 @@ const Swo_body = () => {
               Unit level analysis can be run for sample sets for an in-depth
               analysis containing 10+ data metrics
             </p>
-            <img src={swo_5} width={"220px"} height={"450px"} alt="unit"></img>
+            <LazyLoadImage
+              src={swo_5}
+              width={"220px"}
+              height={"450px"}
+              alt="unit"
+            ></LazyLoadImage>
           </div>
         </div>
         <hr className="hr"></hr>

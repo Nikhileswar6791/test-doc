@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Navbarcss.css";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
-import logo from "../images/logo-new-2.svg";
+import logo from "../images/logo.svg";
 const Navbar = () => {
   const [onclick, setclick] = useState(false);
   const handleclick = () => setclick(!onclick);

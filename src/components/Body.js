@@ -4,15 +4,18 @@ import "bootstrap/dist/css/bootstrap.css";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Foodchain from "./Foodchain";
-import im_8 from "../images/useful_images_svg/image8.svg";
-import im_7 from "../images/useful_images_svg/image7.svg";
+import im_8 from "../images/useful_images_svg/_b5d4665c-445e-4ef2-9e0d-3749d0b307e7.webp";
+import im_7 from "../images/useful_images_svg/ai.webp";
 import abif from "../images/useful_images_svg/abif.webp";
 import nsrcel from "../images/useful_images_svg/NSRCEL.webp";
 import ficci from "../images/useful_images_svg/FICCI.webp";
 import thub from "../images/useful_images_svg/Thub.webp";
 import ikp from "../images/useful_images_svg/IKP.webp";
 import dpiit from "../images/useful_images_svg/dpiit.webp";
-import start_up from "../images/useful_images_svg/start_up.webp";
+import start_up from "../images/useful_images_svg/start_up.png";
+import kharag from "../images/useful_images_svg/IIT_Kharagpur.svg";
+import banglore from "../images/useful_images_svg/IIM_Bangalore_Logo.svg.svg";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 const Body = () => {
   const responsive = {
     superLargeDesktop: {
@@ -38,13 +41,14 @@ const Body = () => {
       <h4 className="text">How the technology works</h4>
       <div className="row Main">
         <div className="col-md-5 Col-1">
-          <img
+          <LazyLoadImage
             src={im_8}
-            width={"100%"}
-            height={"50%"}
+            width={"60%"}
+            height={"60%"}
             alt="Spectral Imaging"
-          ></img>
-          {/* <div className="img-wrapper"></div> */}
+            loading="lazy"
+          ></LazyLoadImage>
+          {/* <div className="LazyLoadImage-wrapper"></div> */}
           <p>
             We use the novel technology of Hyperspectral imaging to check the
             freshness of your produce from the inside coupled with image
@@ -52,13 +56,14 @@ const Body = () => {
           </p>
         </div>
         <div className="col-md-5 Col-2">
-          <img
+          <LazyLoadImage
             src={im_7}
-            width={"100%"}
-            height={"50%"}
+            width={"60%"}
+            height={"60%"}
             alt="Spectral Imaging"
-          ></img>
-          {/* <div className="img-wrapper"></div> */}
+            loading="lazy"
+          ></LazyLoadImage>
+          {/* <div className="LazyLoadImage-wrapper"></div> */}
           <p>
             This is layered further with artificial intelligence which processes
             the data and gives accurate results on specific contents of the
@@ -70,7 +75,7 @@ const Body = () => {
       </div>
       {/* <div className='row row-body'>
           <div className='col-md-6 '>
-          <img src = {require("../images/images/image8.jpg")} width={"100%"} alt = "Spectral Imaging"></img>
+          <LazyLoadImage src = {require("../images/images/image8.jpg")} width={"100%"} alt = "Spectral Imaging"></LazyLoadImage>
           </div>
           <div className='col-md-6 para'>
           <p>We use the novel technology of Hyperspectral imaging to check the freshness of your produce from the inside coupled with image processing which checks the exterior as well.</p>
@@ -78,7 +83,7 @@ const Body = () => {
     </div>
     <div className='row row-body'>
     <div className='col-md-6'>
-    <img src = {require("../images/images/image7.jpg")} width={"100%"} alt = "Spectral Imaging"></img>
+    <LazyLoadImage src = {require("../images/images/image7.jpg")} width={"100%"} alt = "Spectral Imaging"></LazyLoadImage>
     
     </div>
     <div className='col-md-6 para'>
@@ -90,7 +95,7 @@ const Body = () => {
       <Foodchain />
       {/* <div className="container-1 ">
       <div className="ret">
-        <img src={require('../images/images/retailers.jpg')} alt = "retailers"/>
+        <LazyLoadImage src={require('../images/images/retailers.jpg')} alt = "retailers"/>
       </div>
       <div className="text-1">
         <h4>This is a beautiful garden.</h4>
@@ -98,7 +103,7 @@ const Body = () => {
     </div>
     <div className="container-1">
       <div className="ret">
-        <img src={require('../images/images/exporters.jpg')} alt = "retailers"/>
+        <LazyLoadImage src={require('../images/images/exporters.jpg')} alt = "retailers"/>
       </div>
       <div className="text-1">
         <h4>This is a beautiful garden.</h4>
@@ -106,7 +111,7 @@ const Body = () => {
     </div>
     <div className="container-1">
       <div className="ret">
-        <img src={require('../images/images/growers.jpg')} alt = "retailers"/>
+        <LazyLoadImage src={require('../images/images/growers.jpg')} alt = "retailers"/>
       </div>
       <div className="text-1">
         <h4>This is a beautiful garden.</h4>
@@ -114,7 +119,7 @@ const Body = () => {
     </div>
     <div className="container-1">
       <div className="ret">
-        <img src={require('../images/images/traders.jpg')} alt = "retailers"/>
+        <LazyLoadImage src={require('../images/images/traders.jpg')} alt = "retailers"/>
       </div>
       <div className="text-1">
         <h4>This is a beautiful garden.</h4>
@@ -137,37 +142,95 @@ const Body = () => {
           slidesToSlide={1}
         >
           <div className="cour_item">
-            <img src={abif} width={"180px"} height={"180px"} alt="abif"></img>
+            <div className="row">
+              <div className="col">
+                <LazyLoadImage
+                  src={abif}
+                  width={"170px"}
+                  height={"170px"}
+                  alt="abif"
+                  id="right"
+                ></LazyLoadImage>
+              </div>
+              <div className="col left center_LazyLoadImage">
+                <LazyLoadImage
+                  src={kharag}
+                  width={"130px"}
+                  height={"130px"}
+                  alt="abif"
+                  id="left"
+                ></LazyLoadImage>
+              </div>
+            </div>
             <p> Incubated with ABIF IIT Kharagpur</p>
           </div>
           <div className="cour_item">
-            <img src={nsrcel} width={"180px"} height={"180px"} alt="abif"></img>
+            <div className="row">
+              <div className="col">
+                <LazyLoadImage
+                  src={nsrcel}
+                  width={"170px"}
+                  height={"170px"}
+                  alt="abif"
+                  id="right"
+                ></LazyLoadImage>
+              </div>
+              <div className="col left">
+                <LazyLoadImage
+                  src={banglore}
+                  width={"170px"}
+                  height={"170px"}
+                  alt="abif"
+                  id="left"
+                ></LazyLoadImage>
+              </div>
+            </div>
             <p>Incubated with NSRCEL IIM Bangalore</p>
           </div>
           <div className="cour_item">
             {" "}
-            <img src={ficci} width={"180px"} height={"180px"} alt="abif"></img>
+            <LazyLoadImage
+              src={ficci}
+              width={"170px"}
+              height={"170px"}
+              alt="abif"
+            ></LazyLoadImage>
             <p>FICCI IndusInd event Startup Hub</p>
           </div>
           <div className="cour_item">
-            <img src={thub} width={"180px"} height={"180px"} alt="abif"></img>
+            <LazyLoadImage
+              src={thub}
+              width={"170px"}
+              height={"170px"}
+              alt="abif"
+            ></LazyLoadImage>
             <p>Incubated with T hub</p>
           </div>
           <div className="cour_item">
-            <img src={ikp} width={"180px"} height={"180px"} alt="abif"></img>
+            <LazyLoadImage
+              src={ikp}
+              width={"170px"}
+              height={"170px"}
+              alt="abif"
+            ></LazyLoadImage>
             <p>Incubated with IKP Genome Valley, Hyderabad</p>
           </div>
           <div className="cour_item">
-            <img
+            <LazyLoadImage
               src={start_up}
               width={"200px"}
-              height={"180px"}
+              height={"160px"}
               alt="abif"
-            ></img>
+            ></LazyLoadImage>
             <p>Incubated with startupindia</p>
           </div>
           <div className="cour_item">
-            <img src={dpiit} width={"180px"} height={"180px"} alt="abif"></img>
+            <LazyLoadImage
+              src={dpiit}
+              width={"170px"}
+              height={"170px"}
+              alt="abif"
+            ></LazyLoadImage>
             <p>Incubated with DPIIT</p>
           </div>
         </Carousel>
@@ -176,15 +239,15 @@ const Body = () => {
         <h4 className="text">Awards and Recognitions</h4>
         <div className="row">
           <div className="a-1 col-md-4">
-            <img src={abif} width={"180px"} height={"180px"} alt="abif"></img>
+            <LazyLoadImage src={abif} width={"180px"} height={"180px"} alt="abif"></LazyLoadImage>
             <p> Incubated with ABIF IIT Kharagpur</p>
           </div>
           <div className="a-1 col-md-4">
-            <img src={nsrcel} width={"180px"} height={"180px"} alt="abif"></img>
+            <LazyLoadImage src={nsrcel} width={"180px"} height={"180px"} alt="abif"></LazyLoadImage>
             <p>Incubated with NSRCEL IIM Bangalore</p>
           </div>
           <div className="a-1 col-md-4">
-            <img src={ficci} width={"180px"} height={"180px"} alt="abif"></img>
+            <LazyLoadImage src={ficci} width={"180px"} height={"180px"} alt="abif"></LazyLoadImage>
             <p>FICCI IndusInd event Startup Hub</p>
           </div>
         </div>
