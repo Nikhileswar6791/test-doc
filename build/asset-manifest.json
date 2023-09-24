@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.8b84d62f.css",
-    "main.js": "/static/js/main.92264459.js",
+    "main.css": "/static/css/main.a80b8b74.css",
+    "main.js": "/static/js/main.a13fc297.js",
     "static/media/image3.png": "/static/media/image3.637a389f14495e319cb2.png",
     "static/media/image15.png": "/static/media/image15.111cdbf1698883b5ce79.png",
     "static/media/image5-bndOsaotH6-transformed.webp": "/static/media/image5-bndOsaotH6-transformed.474185295d6016dc6177.webp",
@@ -14,6 +14,9 @@
     "static/media/image4.webp": "/static/media/image4.30ff9f65ed2ee5c69292.webp",
     "static/media/image2.webp": "/static/media/image2.9a8c2d3314cb4e642bdc.webp",
     "static/media/_b5d4665c-445e-4ef2-9e0d-3749d0b307e7.webp": "/static/media/_b5d4665c-445e-4ef2-9e0d-3749d0b307e7.60573416fec49968a3d6.webp",
+    "static/media/blog_1.jpeg": "/static/media/blog_1.04c99856dc3c9dcd36cc.jpeg",
+    "static/media/blog_3.jpeg": "/static/media/blog_3.b01d82d01f0482af10da.jpeg",
+    "static/media/blog_2.jpeg": "/static/media/blog_2.5335a1a120d46f73552e.jpeg",
     "static/media/IIT_Kharagpur.svg": "/static/media/IIT_Kharagpur.e60a5eb97967ad55ac6ca5fc94a255b6.svg",
     "static/media/owner.svg": "/static/media/owner.d72062aa0c566834ae84543a5ccf16c6.svg",
     "static/media/retailers.svg": "/static/media/retailers.79e9afebd1a312cc6b676f5a12e70bcb.svg",
@@ -47,11 +50,11 @@
     "static/media/Thub.webp": "/static/media/Thub.1b3b099012ecf7c028be.webp",
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
-    "main.8b84d62f.css.map": "/static/css/main.8b84d62f.css.map",
-    "main.92264459.js.map": "/static/js/main.92264459.js.map"
+    "main.a80b8b74.css.map": "/static/css/main.a80b8b74.css.map",
+    "main.a13fc297.js.map": "/static/js/main.a13fc297.js.map"
   },
   "entrypoints": [
-    "static/css/main.8b84d62f.css",
-    "static/js/main.92264459.js"
+    "static/css/main.a80b8b74.css",
+    "static/js/main.a13fc297.js"
   ]
 }

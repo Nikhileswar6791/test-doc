@@ -62,7 +62,7 @@ const Slider = () => {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
-      <hr class="hr"></hr>
+      <hr className="hr"></hr>
     </div>
   );
 };

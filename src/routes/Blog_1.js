@@ -1,15 +1,15 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import BlogsBody from "../components/BlogsBody";
-const Blogs = () => {
+import BlogBody from "../components/BlogBody";
+const Blog_1 = ({ id }) => {
   return (
     <div>
       <Navbar />
-      <BlogsBody />
+      <BlogBody id={id} />
       <Footer />
     </div>
   );
 };
 
-export default Blogs;
+export default Blog_1;

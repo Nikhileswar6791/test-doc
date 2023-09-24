@@ -43,7 +43,7 @@ const Body = () => {
         <div className="col-md-5 Col-1">
           <LazyLoadImage
             src={im_8}
-            width={"65%"}
+            width={"60%"}
             height={"60%"}
             alt="Spectral Imaging"
             loading="lazy"
@@ -93,38 +93,6 @@ const Body = () => {
       <hr className="hr"></hr>
       <h4 className="text">Solutions for entire food supply chain</h4>
       <Foodchain />
-      {/* <div className="container-1 ">
-      <div className="ret">
-        <LazyLoadImage src={require('../images/images/retailers.jpg')} alt = "retailers"/>
-      </div>
-      <div className="text-1">
-        <h4>This is a beautiful garden.</h4>
-      </div>
-    </div>
-    <div className="container-1">
-      <div className="ret">
-        <LazyLoadImage src={require('../images/images/exporters.jpg')} alt = "retailers"/>
-      </div>
-      <div className="text-1">
-        <h4>This is a beautiful garden.</h4>
-      </div>
-    </div>
-    <div className="container-1">
-      <div className="ret">
-        <LazyLoadImage src={require('../images/images/growers.jpg')} alt = "retailers"/>
-      </div>
-      <div className="text-1">
-        <h4>This is a beautiful garden.</h4>
-      </div>
-    </div>
-    <div className="container-1">
-      <div className="ret">
-        <LazyLoadImage src={require('../images/images/traders.jpg')} alt = "retailers"/>
-      </div>
-      <div className="text-1">
-        <h4>This is a beautiful garden.</h4>
-      </div>
-    </div> */}
       <hr className="hr"></hr>
       <div className="awards">
         <h4 className="text">Awards and Recognitions</h4>
@@ -137,8 +105,6 @@ const Body = () => {
           swipeable={true}
           draggable={true}
           arrows={true}
-          // transitionDuration={1050}
-          // customTransition="transform 1050ms ease-in-out"
           slidesToSlide={1}
         >
           <div className="cour_item">
@@ -150,6 +116,7 @@ const Body = () => {
                   height={"170px"}
                   alt="abif"
                   id="right"
+                  loading="lazy"
                 ></LazyLoadImage>
               </div>
               <div className="col left center_LazyLoadImage">
@@ -159,6 +126,7 @@ const Body = () => {
                   height={"130px"}
                   alt="abif"
                   id="left"
+                  loading="lazy"
                 ></LazyLoadImage>
               </div>
             </div>
@@ -173,6 +141,7 @@ const Body = () => {
                   height={"170px"}
                   alt="abif"
                   id="right"
+                  loading="lazy"
                 ></LazyLoadImage>
               </div>
               <div className="col left">
@@ -182,6 +151,7 @@ const Body = () => {
                   height={"170px"}
                   alt="abif"
                   id="left"
+                  loading="lazy"
                 ></LazyLoadImage>
               </div>
             </div>
@@ -194,6 +164,7 @@ const Body = () => {
               width={"170px"}
               height={"170px"}
               alt="abif"
+              loading="lazy"
             ></LazyLoadImage>
             <p>FICCI IndusInd event Startup Hub</p>
           </div>
@@ -203,6 +174,7 @@ const Body = () => {
               width={"170px"}
               height={"170px"}
               alt="abif"
+              loading="lazy"
             ></LazyLoadImage>
             <p>Incubated with T hub</p>
           </div>
@@ -212,6 +184,7 @@ const Body = () => {
               width={"170px"}
               height={"170px"}
               alt="abif"
+              loading="lazy"
             ></LazyLoadImage>
             <p>Incubated with IKP Genome Valley, Hyderabad</p>
           </div>
@@ -221,6 +194,7 @@ const Body = () => {
               width={"200px"}
               height={"160px"}
               alt="abif"
+              loading="lazy"
             ></LazyLoadImage>
             <p>Incubated with startupindia</p>
           </div>
@@ -230,6 +204,7 @@ const Body = () => {
               width={"170px"}
               height={"170px"}
               alt="abif"
+              loading="lazy"
             ></LazyLoadImage>
             <p>Incubated with DPIIT</p>
           </div>
