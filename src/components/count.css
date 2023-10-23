@@ -1,0 +1,14 @@
+.percentage {
+  height: 200px;
+  align-items: center;
+  padding-top: 50px;
+}
+.percentage h4 {
+  color: #fca253;
+  font-weight: 500;
+}
+.percentage .count-up {
+  color: #05386b;
+  font-weight: 600;
+  font-size: larger;
+}

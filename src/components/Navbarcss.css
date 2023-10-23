@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 1rem 0.5rem 1rem;
+  padding: 0rem 1rem 0rem 1rem;
   top: 0;
   position: fixed;
   z-index: 20;
@@ -12,9 +12,10 @@
 }
 .nav-menu {
   display: flex;
+  padding-top: 0.8rem;
 }
 .nav-menu li {
-  padding: 0 1rem;
+  padding: 0.2rem 1rem;
   position: relative;
 }
 .nav-menu li a {
@@ -71,7 +72,7 @@
     height: 80vh;
     background: rgba(255, 255, 255, 1);
     position: absolute;
-    top: 80px;
+    top: 73px;
     left: -100%;
     z-index: 100;
     transition: 0.5s;

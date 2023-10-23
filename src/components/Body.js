@@ -4,18 +4,24 @@ import "bootstrap/dist/css/bootstrap.css";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Foodchain from "./Foodchain";
-import im_8 from "../images/useful_images_svg/_b5d4665c-445e-4ef2-9e0d-3749d0b307e7.webp";
-import im_7 from "../images/useful_images_svg/ai.webp";
 import abif from "../images/useful_images_svg/abif.webp";
 import nsrcel from "../images/useful_images_svg/NSRCEL.webp";
 import ficci from "../images/useful_images_svg/FICCI.webp";
 import thub from "../images/useful_images_svg/Thub.webp";
 import ikp from "../images/useful_images_svg/IKP.webp";
 import dpiit from "../images/useful_images_svg/dpiit.webp";
-import start_up from "../images/useful_images_svg/start_up.png";
+import start_up from "../images/useful_images_svg/start_up.svg";
 import kharag from "../images/useful_images_svg/IIT_Kharagpur.svg";
 import banglore from "../images/useful_images_svg/IIM_Bangalore_Logo.svg.svg";
+import kar from "../images/useful_images_svg/karnataka_logo.png";
+import dst from "../images/useful_images_svg/DST.png";
+import elevate from "../images/useful_images_svg/elevate_2023.svg";
+import indigram from "../images/useful_images_svg/Indigram.png";
+import atman from "../images/useful_images_svg/atman.svg";
 import { LazyLoadImage } from "react-lazy-load-image-component";
+import Htw_main from "./Htwmain.js";
+import "./Htwbody.css";
+import RunningPercentageCount from "./count";
 const Body = () => {
   const responsive = {
     superLargeDesktop: {
@@ -39,7 +45,10 @@ const Body = () => {
   return (
     <div className="Body">
       <h4 className="text">How the technology works</h4>
-      <div className="row Main">
+      <div className="htw_home">
+        <Htw_main />
+      </div>
+      {/* <div className="row Main">
         <div className="col-md-5 Col-1">
           <LazyLoadImage
             src={im_8}
@@ -47,9 +56,9 @@ const Body = () => {
             height={"60%"}
             alt="Spectral Imaging"
             loading="lazy"
-          ></LazyLoadImage>
-          {/* <div className="LazyLoadImage-wrapper"></div> */}
-          <p>
+          ></LazyLoadImage> */}
+      {/* <div className="LazyLoadImage-wrapper"></div> */}
+      {/* <p>
             We use the novel technology of Hyperspectral imaging to check the
             freshness of your produce from the inside coupled with image
             processing which checks the exterior as well.
@@ -62,9 +71,9 @@ const Body = () => {
             height={"60%"}
             alt="Spectral Imaging"
             loading="lazy"
-          ></LazyLoadImage>
-          {/* <div className="LazyLoadImage-wrapper"></div> */}
-          <p>
+          ></LazyLoadImage> */}
+      {/* <div className="LazyLoadImage-wrapper"></div> */}
+      {/* <p>
             This is layered further with artificial intelligence which processes
             the data and gives accurate results on specific contents of the
             fresh produce which further determines its freshness, days to get
@@ -72,7 +81,7 @@ const Body = () => {
             any).
           </p>
         </div>
-      </div>
+      </div> */}
       {/* <div className='row row-body'>
           <div className='col-md-6 '>
           <LazyLoadImage src = {require("../images/images/image8.jpg")} width={"100%"} alt = "Spectral Imaging"></LazyLoadImage>
@@ -94,6 +103,7 @@ const Body = () => {
       <h4 className="text">Solutions for entire food supply chain</h4>
       <Foodchain />
       <hr className="hr"></hr>
+      <RunningPercentageCount />
       <div className="awards">
         <h4 className="text">Awards and Recognitions</h4>
         <Carousel
@@ -207,6 +217,56 @@ const Body = () => {
               loading="lazy"
             ></LazyLoadImage>
             <p>Incubated with DPIIT</p>
+          </div>
+          <div className="cour_item">
+            <LazyLoadImage
+              src={kar}
+              width={"170px"}
+              height={"170px"}
+              alt="startup karnataka"
+              loading="lazy"
+            ></LazyLoadImage>
+            <p>Registered with startup karnataka</p>
+          </div>
+          <div className="cour_item">
+            <LazyLoadImage
+              src={dst}
+              width={"170px"}
+              height={"170px"}
+              alt="DST"
+              loading="lazy"
+            ></LazyLoadImage>
+            <p>Grant winner from DST (Department of Science & Technology)</p>
+          </div>
+          <div className="cour_item">
+            <LazyLoadImage
+              src={indigram}
+              width={"170px"}
+              height={"170px"}
+              alt="Indigram Labs"
+              loading="lazy"
+            ></LazyLoadImage>
+            <p>Incubated with Indigram Labs</p>
+          </div>
+          <div className="cour_item">
+            <LazyLoadImage
+              src={elevate}
+              width={"170px"}
+              height={"170px"}
+              alt="Indigram Labs"
+              loading="lazy"
+            ></LazyLoadImage>
+            <p>Finalists in Elevate Karnataka</p>
+          </div>
+          <div className="cour_item">
+            <LazyLoadImage
+              src={atman}
+              width={"170px"}
+              height={"170px"}
+              alt="Indigram Labs"
+              loading="lazy"
+            ></LazyLoadImage>
+            <p>Winner of ATMAN 2023 Challenge</p>
           </div>
         </Carousel>
       </div>

@@ -3,7 +3,7 @@
   padding: 10px 30px;
   margin-bottom: 50px;
 }
-.htw img {
+.htw_main img {
   max-width: 80%;
   max-height: 400px;
 }
@@ -14,10 +14,10 @@
 .or {
   color: #05386b;
 }
-.htw img {
+.htw_main img {
   margin-bottom: 20px;
 }
-.htw h4 {
+.htw_main h4 {
   color: #fca253;
   margin-top: 15px;
   margin-bottom: 15px;

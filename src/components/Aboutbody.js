@@ -13,14 +13,14 @@ const Aboutbody = () => {
   return (
     <div className="about">
       <p>
-        DoctorSpectra is an early stage startup team of 7 highly-skilled
-        professionals coming from a wide background of expertise in India, and
-        united by their passion for technology & science and with an aim of
-        reducing food wastage and optimizing the food supply chain in India. In
-        addition to its in-house team, DoctorSpectra has built a network of
-        external scientists, engineers and spectral imaging professionals around
-        the world to expand its technical and commercial capabilities and to
-        ensure we are in touch with the latest developments in this field. At
+        DoctorSpectra is a startup team of 7 highly-skilled professionals coming
+        from a wide background of expertise in India, and united by their
+        passion for technology & science and with an aim of reducing food
+        wastage and optimizing the food supply chain in India. In addition to
+        its in-house team, DoctorSpectra has built a network of external
+        scientists, engineers and spectral imaging professionals around the
+        world to expand its technical and commercial capabilities and to ensure
+        we are in touch with the latest developments in this field. At
         DoctorSpectra, we are committed to driving innovations for scalable,
         fast and non destructive ways of doing food quality assessment.
       </p>

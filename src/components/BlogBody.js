@@ -1,6 +1,6 @@
 import React from "react";
 import "./BlogBody.css";
-import about_1 from "../images/useful_images_svg/about-1.webp";
+import about_6 from "../images/useful_images_svg/about-6.webp";
 import blog_1 from "../images/useful_images_svg/blog_1.jpeg";
 import blog_2 from "../images/useful_images_svg/blog_2.jpeg";
 import blog_3 from "../images/useful_images_svg/blog_3.jpeg";
@@ -12,6 +12,7 @@ const BlogBody = ({ id }) => {
   var Topics = "";
   var Topics_Parsed = "";
   var Body_Parsed = "";
+  var min_read = "";
   var blog = blog_1;
   if (id === ":1") {
     blog = blog_1;
@@ -43,6 +44,7 @@ const BlogBody = ({ id }) => {
     Topics = ` <div className="col col-md-4">Quality</div>
     <div className="col col-md-4">Food</div>`;
     Topics_Parsed = parse(Topics);
+    min_read = "10 MIN READ";
   } else if (id === ":2") {
     blog = blog_2;
     Heading = `"From Farm to Fork, Let's Minimize Food Waste and Feed the
@@ -68,8 +70,7 @@ const BlogBody = ({ id }) => {
     <dd>Overproduction by farmers and overbuying by consumers due to fears of scarcity or uncertainty can lead to surplus food that often goes to waste.
     </dd>
     <dt>Ineffective Food Management Policies:</dt>
-    <dd>Inadequate policy frameworks and regulatory mechanisms for food management and distribution contribute to the problem of food wastage.
-    </dd>
+    <dd>The Indian government has made commendable strides in food management policies, enhancing food security and distribution across the nation. However, there's room for improvement, particularly in optimizing supply chain efficiency, reducing food wastage, bolstering storage infrastructure, refining distribution networks, and fostering sustainable agricultural practices for long-term resilience. </dd>
     <dt>Lack of Awareness and Education:</dt>
     <dd>Insufficient awareness about the impacts of food wastage and the importance of minimizing waste is another factor. Educating both producers and consumers about responsible consumption and the consequences of wasting food is crucial.
     </dd>
@@ -90,9 +91,6 @@ const BlogBody = ({ id }) => {
     <dt>Food Recovery and Redistribution:</dt>
     <dd>Establishing mechanisms to collect surplus food from restaurants, events, and households and redistributing it to those in need can significantly reduce food wastage.
     </dd>
-    <dt>Policy Reforms:</dt>
-    <dd>Implementing and enforcing policies that encourage food conservation, minimize waste, and improve food distribution practices.
-    </dd>
     <dt>Encouraging Sustainable Practices:</dt>
     <dd>Promoting sustainable farming and consumption practices that emphasize reducing waste and optimizing resource use.
     </dd>
@@ -103,6 +101,7 @@ const BlogBody = ({ id }) => {
     <div className="col-6 col-md-4">Supply Chain</div>
     <div className ="col-6 col-md-4">Sustainability</div>`;
     Topics_Parsed = parse(Topics);
+    min_read = "5 MIN READ";
   } else if (id === ":3") {
     Heading = `Understanding India's Low Farm Yields: A Global Perspective`;
     blog = blog_3;
@@ -143,6 +142,7 @@ const BlogBody = ({ id }) => {
     <div className="col-6 col-md-4">Farm Yields</div>
     <div className ="col-6 col-md-4">FoodProduction</div>`;
     Topics_Parsed = parse(Topics);
+    min_read = "5 MIN READ";
   }
   return (
     <div className="blog">
@@ -153,7 +153,7 @@ const BlogBody = ({ id }) => {
             <div className="Right">
               <div className="by">
                 <p>
-                  BY <span className="auth_name">Rati Gugnani</span>
+                  BY <span className="auth_name">Nikhileswar Reddy P</span>
                 </p>
               </div>
             </div>
@@ -161,7 +161,7 @@ const BlogBody = ({ id }) => {
               <div className="reading_time">
                 <div className="row read-out">
                   <div className="col read-in">
-                    <div>20 min read</div>
+                    <div>{min_read}</div>
                   </div>
                 </div>
               </div>
@@ -187,20 +187,20 @@ const BlogBody = ({ id }) => {
       <div className="Blog_Footer">
         <div className="row">
           <div className="col-4">
-            <img className="blog_author" src={about_1} alt="blog_author" />
+            <img className="blog_author" src={about_6} alt="blog_author" />
           </div>
           <div className="col-8">
             <div className="row">
               <h4>
-                Written by <span className="orange">Rati Gugnani</span>
+                Written by <span className="orange">Nikhileswar Reddy P</span>
               </h4>
             </div>
             <div className="row">
-              <p>CEO and Founder of Doctorspectra</p>
+              <p>Web Development Intern at Doctorspectra</p>
             </div>
             <div className="row">
               <SocialIcon
-                url="https://www.linkedin.com/in/rati-gugnani-18a42612/"
+                url="https://www.linkedin.com/in/nikhileswar-reddy-pochimireddy-46682720b/"
                 bgColor="white"
                 fgColor="#fca253"
               />

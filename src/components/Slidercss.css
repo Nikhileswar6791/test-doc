@@ -1,5 +1,5 @@
 .slider {
-  margin-top: 100px;
+  margin-top: 70px;
 }
 .slider img {
   width: 100%;
@@ -17,7 +17,7 @@
   font-weight: 600;
   text-align: center;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 5px;
   color: #05386b;
 }
 .hr {

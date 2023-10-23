@@ -1,6 +1,6 @@
 import React from "react";
 import "./BlogsBody.css";
-import about_1 from "../images/useful_images_svg/about-1.webp";
+import about_5 from "../images/useful_images_svg/about-6.webp";
 import blog_1 from "../images/useful_images_svg/blog_1.jpeg";
 import blog_2 from "../images/useful_images_svg/blog_2.jpeg";
 import blog_3 from "../images/useful_images_svg/blog_3.jpeg";
@@ -10,10 +10,10 @@ const BlogsBody = () => {
     <div className="blogs">
       <div className="blogs-header">
         {" "}
-        <h4>Blogs</h4>
-        <div className="head-p">
-          <p>Where Words Blossom and Ideas Flourish.</p>
-        </div>
+        <h4>Doctorspectra News .......</h4>
+        {/* <div className="head-p">
+          <p> </p>
+        </div> */}
       </div>
 
       <div className="blogsBody row">
@@ -60,7 +60,7 @@ const BlogsBody = () => {
                 <div className="card_footer">
                   <LazyLoadImage
                     className="author_image"
-                    src={about_1}
+                    src={about_5}
                     alt="Nested Software"
                   />
                   <div className="reading_time">10 min read</div>
@@ -91,7 +91,7 @@ const BlogsBody = () => {
                 <div className="card_footer">
                   <LazyLoadImage
                     className="author_image"
-                    src={about_1}
+                    src={about_5}
                     alt="Nested Software"
                   />
                   <div className="reading_time">5 min read</div>
@@ -122,7 +122,7 @@ const BlogsBody = () => {
                 <div className="card_footer">
                   <LazyLoadImage
                     className="author_image"
-                    src={about_1}
+                    src={about_5}
                     alt="Nested Software"
                   />
                   <div className="reading_time">5 min read</div>

@@ -16,13 +16,11 @@ const Swo_body = () => {
       <div className="swo">
         <p>
           We provide solutions to check the health of your produce from the
-          inside as well as outside via a non destructive and quick method
-          leveraging the technology of Hyperspectral imaging and sharpness of AI
-          and computer vision. This will help you make the quality of your
-          produce (imported/ exported/ harvested) better and the quality check
-          process organized, data based and faster. So, you can focus on
-          giving/getting the best inputs and maximizing your profit and yield
-          and minimizing wastage.
+          inside as well as outside via a non destructive and quick method. This
+          will help you make the quality of your produce (imported/ exported/
+          harvested) better and the quality check process organized, data based
+          and faster. So, you can focus on giving/getting the best inputs and
+          maximizing your profit and yield and minimizing wastage.
         </p>
         <div className="row">
           <div className="col-lg-4 col-md-6">

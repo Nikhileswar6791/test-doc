@@ -1,27 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.a80b8b74.css",
-    "main.js": "/static/js/main.a13fc297.js",
+    "main.css": "/static/css/main.7490fb7a.css",
+    "main.js": "/static/js/main.86a08acb.js",
     "static/media/image3.png": "/static/media/image3.637a389f14495e319cb2.png",
     "static/media/image15.png": "/static/media/image15.111cdbf1698883b5ce79.png",
     "static/media/image5-bndOsaotH6-transformed.webp": "/static/media/image5-bndOsaotH6-transformed.474185295d6016dc6177.webp",
     "static/media/image8.svg": "/static/media/image8.d25ef2ed94f55e814ef0.svg",
     "static/media/htw-3.png": "/static/media/htw-3.96b65a5f4c044d201d79.png",
+    "static/media/DST.png": "/static/media/DST.c1d60e848058e19a04d8.png",
     "static/media/swo-4.svg": "/static/media/swo-4.bbe7d04cdc0634d4361fc5e51830c012.svg",
     "static/media/image1.webp": "/static/media/image1.c5f369d098fb772a8e13.webp",
+    "static/media/_c9157b12-0007-419c-8c2f-69a29d72cb07.jpeg": "/static/media/_c9157b12-0007-419c-8c2f-69a29d72cb07.8d26540af678f09d69f6.jpeg",
     "static/media/abif.webp": "/static/media/abif.3edd18cd65376b86acb9.webp",
     "static/media/image6.webp": "/static/media/image6.13d42f3b3436242ff4fb.webp",
-    "static/media/image4.webp": "/static/media/image4.30ff9f65ed2ee5c69292.webp",
+    "static/media/elevate_2023.svg": "/static/media/elevate_2023.dd709bcee51ed5458b81f6c6b6f75fb0.svg",
     "static/media/image2.webp": "/static/media/image2.9a8c2d3314cb4e642bdc.webp",
-    "static/media/_b5d4665c-445e-4ef2-9e0d-3749d0b307e7.webp": "/static/media/_b5d4665c-445e-4ef2-9e0d-3749d0b307e7.60573416fec49968a3d6.webp",
     "static/media/blog_1.jpeg": "/static/media/blog_1.04c99856dc3c9dcd36cc.jpeg",
     "static/media/blog_3.jpeg": "/static/media/blog_3.b01d82d01f0482af10da.jpeg",
     "static/media/blog_2.jpeg": "/static/media/blog_2.5335a1a120d46f73552e.jpeg",
+    "static/media/atman.svg": "/static/media/atman.17c6eb3021b8b4f29048eea3baade8e6.svg",
+    "static/media/_52a1b0db-7105-4200-95ee-4266911ed00c.jpeg": "/static/media/_52a1b0db-7105-4200-95ee-4266911ed00c.8598af95fdf0613ba422.jpeg",
     "static/media/IIT_Kharagpur.svg": "/static/media/IIT_Kharagpur.e60a5eb97967ad55ac6ca5fc94a255b6.svg",
     "static/media/owner.svg": "/static/media/owner.d72062aa0c566834ae84543a5ccf16c6.svg",
     "static/media/retailers.svg": "/static/media/retailers.79e9afebd1a312cc6b676f5a12e70bcb.svg",
-    "static/media/ai.webp": "/static/media/ai.2bf33de80b9502b3a571.webp",
-    "static/media/image19.webp": "/static/media/image19.1edb2daf02c2dd8101b1.webp",
     "static/media/about-2.webp": "/static/media/about-2.c3902681b175383d2810.webp",
     "static/media/about-7.webp": "/static/media/about-7.7de66c5d5cbf74075f25.webp",
     "static/media/growers.svg": "/static/media/growers.f6f71b7e666fe3e0fd46a52756feaba9.svg",
@@ -46,15 +47,16 @@
     "static/media/about-5.webp": "/static/media/about-5.0331f3d22ac5463f15fc.webp",
     "static/media/swo-3.webp": "/static/media/swo-3.d2f01bf8f181f71e73b0.webp",
     "static/media/FICCI.webp": "/static/media/FICCI.78ca2def01fbab61d324.webp",
+    "static/media/start_up.svg": "/static/media/start_up.f914434bad8e6f8e1e6ca4d4b867b9fd.svg",
     "static/media/swo-2.webp": "/static/media/swo-2.f95628dae986a396e7e8.webp",
     "static/media/Thub.webp": "/static/media/Thub.1b3b099012ecf7c028be.webp",
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
-    "main.a80b8b74.css.map": "/static/css/main.a80b8b74.css.map",
-    "main.a13fc297.js.map": "/static/js/main.a13fc297.js.map"
+    "main.7490fb7a.css.map": "/static/css/main.7490fb7a.css.map",
+    "main.86a08acb.js.map": "/static/js/main.86a08acb.js.map"
   },
   "entrypoints": [
-    "static/css/main.a80b8b74.css",
-    "static/js/main.a13fc297.js"
+    "static/css/main.7490fb7a.css",
+    "static/js/main.86a08acb.js"
   ]
 }
