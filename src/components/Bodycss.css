@@ -1,5 +1,5 @@
 .Body {
-  margin-top: 12px;
+  margin-top: 0px;
   padding: 10px 30px;
 }
 .Body h4 {
@@ -11,7 +11,10 @@
   padding-bottom: 20px;
   margin-top: 10px;
 }
-.text {
+.text-top {
+  margin-bottom: 0px;
+}
+.text{
   margin-bottom: 30px;
 }
 .Main {

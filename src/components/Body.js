@@ -44,7 +44,7 @@ const Body = () => {
   };
   return (
     <div className="Body">
-      <h4 className="text">How the technology works</h4>
+      <h4 className="text-top">How the technology works</h4>
       <div className="htw_home">
         <Htw_main />
       </div>
