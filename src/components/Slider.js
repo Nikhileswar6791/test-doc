@@ -11,7 +11,7 @@ import im_6 from "../images/useful_images_svg/image6.webp";
 import im_5 from "../images/useful_images_svg/image5-bndOsaotH6-transformed.webp";
 const Slider = () => {
   return (
-    <div className="slider" style={{ display: "block", width: "100%" }}>
+    <div className="slider" style={{ display: "block", width: "100%"}}>
       <h4>What do we Offer</h4>
       <Carousel variant="dark">
         <Carousel.Item interval={1500}>

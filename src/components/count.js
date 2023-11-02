@@ -10,7 +10,7 @@ function ComponentToRender() {
     const options = {
       root: null, // Use the viewport as the root element
       rootMargin: "0px",
-      threshold: 0.1, // Trigger when 50% of the component is visible
+      threshold: 0.06, // Trigger when 50% of the component is visible
     };
 
     const observer = new IntersectionObserver((entries) => {

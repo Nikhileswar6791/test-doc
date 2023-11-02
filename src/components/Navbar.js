@@ -10,7 +10,7 @@ const Navbar = () => {
     <div className="header">
       <NavLink href="/">
         {" "}
-        <img width="200px" height="100%" src={logo} alt="logo" />
+        <img height="60px" src={logo} alt="logo" />
       </NavLink>
       <ul className={onclick ? "nav-menu active" : "nav-menu"}>
         <li>

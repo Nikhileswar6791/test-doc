@@ -1,5 +1,5 @@
 .slider {
-  margin-top: 70px;
+  margin-top: 60px;
 }
 .slider img {
   width: 100%;
@@ -32,7 +32,7 @@
 }
 @media screen and (min-width: 1000px) {
   .slider img {
-    height: 70vh;
+    height: 60vh;
     padding: 10px 20px;
   }
 }
