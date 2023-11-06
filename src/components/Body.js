@@ -206,7 +206,7 @@ const Body = () => {
               alt="abif"
               loading="lazy"
             ></LazyLoadImage>
-            <p>Incubated with startupindia</p>
+            <p>Registered with Startup India</p>
           </div>
           <div className="cour_item">
             <LazyLoadImage
@@ -216,7 +216,7 @@ const Body = () => {
               alt="abif"
               loading="lazy"
             ></LazyLoadImage>
-            <p>Incubated with DPIIT</p>
+            <p>Registered with DPIIT</p>
           </div>
           <div className="cour_item">
             <LazyLoadImage

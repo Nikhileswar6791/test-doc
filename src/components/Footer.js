@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="row row-f main_row">
-        <div className="col-md-3 col-sm-4">
+        <div className="col-md-4 col-sm-4">
           <div className="row row-f logo">
             <Link to="/">
               <LazyLoadImage
@@ -29,7 +29,7 @@ const Footer = () => {
             </Link>
           </div> */}
         </div>
-        <div className="col-md-3 col-sm-6">
+        {/* <div className="col-md-3 col-sm-6">
           <div className="row row-f row-head">
             <p>Company</p>
           </div>
@@ -39,8 +39,8 @@ const Footer = () => {
             <p>Dodaballapur road, Banglore</p>
             <p>Karnataka, 560064, India</p>
           </div>
-        </div>
-        <div className="col-md-3">
+        </div> */}
+        <div className="col-md-4">
           <div className="row row-f row-head">
             <p>Links</p>
           </div>
@@ -71,7 +71,7 @@ const Footer = () => {
             </Link>
           </div>
         </div>
-        <div className="col-sm-4 col-md-3">
+        <div className="col-sm-4 col-md-4">
           <div className="row row-f row-head">
             <p>Follow Us</p>
           </div>

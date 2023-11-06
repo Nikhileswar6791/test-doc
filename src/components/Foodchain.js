@@ -20,16 +20,16 @@ const Food_chain = () => {
             </div>
             <div className="inner inner-p">
               <p>
-                Solutions for entire food supply chain Solutions for entire food
-                supply chain Solutions for entire food supply chain
+                Check the Quality of inbounded produce in real time for entire
+                batch, pay as per quality and ship the best to your shoppers.
               </p>
             </div>
           </div>
         </div>
         <div className="l-250">
           <p>
-            Solutions for entire food supply chain Solutions for entire food
-            supply chain Solutions for entire food supply chain
+            Check the Quality of inbounded produce in real time for entire
+            batch, pay as per quality and ship the best to your shoppers.
           </p>
         </div>
         <div className="col container-1">
@@ -46,16 +46,18 @@ const Food_chain = () => {
             </div>
             <div className="inner inner-p">
               <p>
-                Solutions for entire food supply chain Solutions for entire food
-                supply chain Solutions for entire food supply chain
+                Check/Showcase the quality of your produce being
+                imported/exported in real time for entire batch. Pay/Get paid
+                basis quality. Showcase your organic produce in real time!
               </p>
             </div>
           </div>
         </div>
         <div className="l-250">
           <p>
-            Solutions for entire food supply chain Solutions for entire food
-            supply chain Solutions for entire food supply chain
+            Check/Showcase the quality of your produce being imported/exported
+            in real time for entire batch. Pay/Get paid basis quality. Showcase
+            your organic produce in real time!
           </p>
         </div>
       </div>
@@ -66,20 +68,20 @@ const Food_chain = () => {
           </div>
           <div className="text-1">
             <div className="inner">
-              <h4>Growers</h4>
+              <h4>Growers/Breeders/ Farm owners</h4>
             </div>
             <div className="inner inner-p">
               <p>
-                Solutions for entire food supply chain Solutions for entire food
-                supply chain Solutions for entire food supply chain
+                Check the quality of your produce post harvest and negotiate the
+                price basis quality. Showcase your organic produce in real time!
               </p>
             </div>
           </div>
         </div>
         <div className="l-250">
           <p>
-            Solutions for entire food supply chain Solutions for entire food
-            supply chain Solutions for entire food supply chain
+            Check the quality of your produce post harvest and negotiate the
+            price basis quality. Showcase your organic produce in real time!
           </p>
         </div>
         <div className="col container-1">
@@ -92,16 +94,16 @@ const Food_chain = () => {
             </div>
             <div className="inner inner-p">
               <p>
-                Solutions for entire food supply chain Solutions for entire food
-                supply chain Solutions for entire food supply chain
+                Check the Quality of inbounded produce in real time for entire
+                batch. Negotiate prices basis quality.
               </p>
             </div>
           </div>
         </div>
         <div className="l-250">
           <p>
-            Solutions for entire food supply chain Solutions for entire food
-            supply chain Solutions for entire food supply chain
+            Check the Quality of inbounded produce in real time for entire
+            batch. Negotiate prices basis quality.
           </p>
         </div>
       </div>
@@ -116,16 +118,16 @@ const Food_chain = () => {
             </div>
             <div className="inner inner-p">
               <p>
-                Solutions for entire food supply chain Solutions for entire food
-                supply chain Solutions for entire food supply chain
+                Check the quality of inbounded produce in real time for entire
+                batch, pay as per quality. Process, Pack and Sell the best.
               </p>
             </div>
           </div>
         </div>
         <div className="l-250">
           <p>
-            Solutions for entire food supply chain Solutions for entire food
-            supply chain Solutions for entire food supply chain
+            Check the quality of inbounded produce in real time for entire
+            batch, pay as per quality. Process, Pack and Sell the best.
           </p>
         </div>
         <div className="col container-1">
@@ -138,16 +140,20 @@ const Food_chain = () => {
             </div>
             <div className="inner inner-p">
               <p>
-                Solutions for entire food supply chain Solutions for entire food
-                supply chain Solutions for entire food supply chain
+                Check the Quality of inbounded produce in real time for entire
+                batch, pay as per quality. Process the best and ship the best to
+                your consumers. Showcase your product superiority in real time
+                to shoppers as well as retailers.
               </p>
             </div>
           </div>
         </div>
         <div className="l-250">
           <p>
-            Solutions for entire food supply chain Solutions for entire food
-            supply chain Solutions for entire food supply chain
+            Check the Quality of inbounded produce in real time for entire
+            batch, pay as per quality. Process the best and ship the best to
+            your consumers. Showcase your product superiority in real time to
+            shoppers as well as retailers.
           </p>
         </div>
       </div>

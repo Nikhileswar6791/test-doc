@@ -39,19 +39,19 @@ function ComponentToRender() {
         // Render your component content here
         <div>
           <div className="row">
-            <div className="col percentage">
-              <h4>Percentage 1</h4>
-              <CountUp className="count-up" end={25} />
+            <div className="col-sm-12 col-md-4 percentage">
+              <h4>Check entire batch with high accuracy</h4>
+              <CountUp className="count-up" end={90} />
               <span className="count-up">%</span>
             </div>
-            <div className="col percentage">
-              <h4>Percentage 2</h4>
-              <CountUp className="count-up" end={45} />
+            <div className="col-sm-12 col-md-4 percentage">
+              <h4>Reduce food wastage</h4>
+              <CountUp className="count-up" end={50} />
               <span className="count-up">%</span>
             </div>
-            <div className="col percentage">
-              <h4>Percentage 3</h4>
-              <CountUp className="count-up" end={50} />{" "}
+            <div className="col-sm-12 col-md-4 percentage">
+              <h4>Increased productivity</h4>
+              <CountUp className="count-up" end={25} />{" "}
               <span className="count-up">%</span>
             </div>
           </div>
