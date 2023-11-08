@@ -15,7 +15,7 @@
   margin-bottom: 100px;
 }
 .contact-head h4 {
-  font-size: 2rem;
+  font-size: 1.7rem;
   font-weight: 600;
 }
 .contact-head p {
@@ -40,13 +40,13 @@
 }
 .contact-form p {
   color: #05386b;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 500;
 }
 .contact-form label {
   color: black;
-  font-size: 1.1rem;
-  font-weight: 500;
+  font-size: 1rem;
+  font-weight: 400;
 }
 .form-check {
   padding: 5px 0px;
@@ -92,10 +92,13 @@ textarea {
     padding-top: 20px;
   }
   .contact-body {
-    height: 1150px;
+    height: 1040px;
   }
   .form-check {
     margin-left: 30px;
+  }
+  .contact-form label {
+    font-size: 1rem;
   }
 }
 
@@ -118,11 +121,15 @@ textarea {
   #contact-success p {
     font-size: 0.9rem;
   }
-  .form-check label {
-    font-size: 1rem;
+  .contact-form label {
+    font-size: 0.7rem;
   }
 }
-
+@media screen and (min-width: 768px) and (max-width: 830px) {
+  .contact-body {
+    height: 800px;
+  }
+}
 @media screen and (min-width: 800px) and (max-width: 1000px) {
   .contact {
     padding-top: 150px;

@@ -6,10 +6,11 @@
 }
 .footer p {
   color: white;
+  font-size: 1rem;
 }
 .row-head p {
   color: #fca253;
-  font-weight: 600;
+  font-weight: 500;
   position: relative;
   padding-bottom: 5px;
 }
@@ -33,6 +34,11 @@
 @media screen and (max-width: 768px) {
   .empty {
     display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .footer p {
+    font-size: 0.8rem;
   }
 }
 .row-f a {
@@ -59,7 +65,7 @@
 }
 
 .copy p {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   color: white;
 }
 .illu p {

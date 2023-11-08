@@ -104,7 +104,7 @@ const Form = () => {
             <div id="danger">
               <p>Fields can't be empty.</p>
             </div>
-            <input type="submit" className="button" value="Book a Demo" />
+            <input type="submit" className="button" value="Submit" />
           </form>
         </div>
       </div>

@@ -24,9 +24,10 @@ ul {
   height: 5px;
   color: black;
   background-color: black;
-  margin: auto;
-  margin-top: 50px;
-  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  border-radius: 10px;
   border: 1px solid black;
 }
 .space-60 {

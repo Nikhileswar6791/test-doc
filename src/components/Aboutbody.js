@@ -7,11 +7,13 @@ import about_4 from "../images/useful_images_svg/about-4.webp";
 import about_5 from "../images/useful_images_svg/about-5.webp";
 import about_6 from "../images/useful_images_svg/about-6.webp";
 import about_7 from "../images/useful_images_svg/about-7.webp";
+import top from "../images/useful_images_svg/_e2f2bf6f-d065-44ef-9453-c198cc2852e8.jpeg";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import { SocialIcon } from "react-social-icons";
 const Aboutbody = () => {
   return (
     <div className="about">
+      {/* <img src={top} width={"100%"} height={"400vh"} /> */}
       <p>
         DoctorSpectra is a startup team of 7 highly-skilled professionals coming
         from a wide background of expertise in India, and united by their

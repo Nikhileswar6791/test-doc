@@ -20,7 +20,7 @@
 }
 .contact-img {
   text-align: center;
-  padding-top: 40px;
+  padding-top: 20px;
 }
 @media screen and (max-width: 1000px) {
   .contact-img img {

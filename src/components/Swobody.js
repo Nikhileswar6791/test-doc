@@ -53,7 +53,7 @@ const Swo_body = () => {
           </div>
         </div>
         <hr className="hr"></hr>
-        <div className="space-60"></div>
+        <div className="space-30"></div>
         <h4 className="head" style={{ color: "#05386b", textAlign: "center" }}>
           We can help you assess your produce at a batch level as well as at a
           unit level
@@ -89,7 +89,7 @@ const Swo_body = () => {
           </div>
         </div>
         <hr className="hr"></hr>
-        <div className="space-60"></div>
+        <div className="space-30"></div>
         <h4 className="head" style={{ color: "#05386b", textAlign: "center" }}>
           We cater to the entire food supply chain
         </h4>
@@ -99,7 +99,7 @@ const Swo_body = () => {
         <Foodchain />
       </div>
       <hr className="hr"></hr>
-      <div className="space-60"></div>
+      <div className="space-30"></div>
     </div>
   );
 };

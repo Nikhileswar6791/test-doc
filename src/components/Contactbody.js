@@ -52,7 +52,7 @@ const Contactbody = () => {
             <fieldset className="form-group">
               <div className="row">
                 <legend className="col-form-label col-sm-6 pt-0">
-                  <p>Why do you want to join us?</p>
+                  <p>Please fill the following details</p>
                 </legend>
                 <div className="col-sm-6">
                   <div className="form-check">
@@ -64,7 +64,7 @@ const Contactbody = () => {
                       value="BUSINESS"
                     />
                     <label className="form-check-label" for="r-1">
-                      BUSINESS
+                      Business
                     </label>
                   </div>
                   <div className="form-check">
@@ -76,7 +76,7 @@ const Contactbody = () => {
                       value="CAREERS"
                     />
                     <label className="form-check-label" for="gridRadios2">
-                      CAREERS
+                      Careers
                     </label>
                   </div>
                   <div className="form-check">
@@ -85,10 +85,34 @@ const Contactbody = () => {
                       type="radio"
                       name="radios"
                       id="r-3"
-                      value="OTHERS"
+                      value="CAREERS"
                     />
                     <label className="form-check-label" for="r-3">
-                      OTHERS
+                      Media
+                    </label>
+                  </div>
+                  <div className="form-check">
+                    <input
+                      className="form-check-input"
+                      type="radio"
+                      name="radios"
+                      id="r-4"
+                      value="CAREERS"
+                    />
+                    <label className="form-check-label" for="r-4">
+                      Industry Partnerships/Associations
+                    </label>
+                  </div>
+                  <div className="form-check">
+                    <input
+                      className="form-check-input"
+                      type="radio"
+                      name="radios"
+                      id="r-5"
+                      value="OTHERS"
+                    />
+                    <label className="form-check-label" for="r-5">
+                      Others
                     </label>
                   </div>
                 </div>
@@ -176,7 +200,7 @@ const Contactbody = () => {
             <div id="contact-danger" className="Contact-danger">
               <p>Fields with * can't be empty.</p>
             </div>
-            <input type="submit" className="button" value="Book a Demo" />
+            <input type="submit" className="button" value="Submit" />
           </form>
         </div>
       </div>

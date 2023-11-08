@@ -21,7 +21,22 @@ const Footer = () => {
             </Link>
           </div>
           <div className="row row-f">
+            <p>contactus@doctorspectra.com</p>
+          </div>
+          <div className="row row-f">
             <p>India</p>
+          </div>
+          <div className="row row-f">
+            {" "}
+            <Link to="/contact">
+              <p>Contact us</p>
+            </Link>
+          </div>
+          <div className="row row-f">
+            {" "}
+            <Link to="/">
+              <p>Careers</p>
+            </Link>
           </div>
           {/* <div className="row row-f">
             <Link to="/contact">

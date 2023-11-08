@@ -31,7 +31,7 @@ const Body = () => {
     },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 3,
+      items: 5,
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
@@ -104,6 +104,7 @@ const Body = () => {
       <Foodchain />
       <hr className="hr"></hr>
       <RunningPercentageCount />
+
       <div className="awards">
         <h4 className="text">Awards and Recognitions</h4>
         <Carousel
@@ -122,8 +123,8 @@ const Body = () => {
               <div className="col">
                 <LazyLoadImage
                   src={abif}
-                  width={"170px"}
-                  height={"170px"}
+                  width={"100px"}
+                  height={"120px"}
                   alt="abif"
                   id="right"
                   loading="lazy"
@@ -132,8 +133,8 @@ const Body = () => {
               <div className="col left center_LazyLoadImage">
                 <LazyLoadImage
                   src={kharag}
-                  width={"130px"}
-                  height={"130px"}
+                  width={"100px"}
+                  height={"120px"}
                   alt="abif"
                   id="left"
                   loading="lazy"
@@ -147,8 +148,8 @@ const Body = () => {
               <div className="col">
                 <LazyLoadImage
                   src={nsrcel}
-                  width={"170px"}
-                  height={"170px"}
+                  width={"100px"}
+                  height={"120px"}
                   alt="abif"
                   id="right"
                   loading="lazy"
@@ -157,8 +158,8 @@ const Body = () => {
               <div className="col left">
                 <LazyLoadImage
                   src={banglore}
-                  width={"170px"}
-                  height={"170px"}
+                  width={"100px"}
+                  height={"120px"}
                   alt="abif"
                   id="left"
                   loading="lazy"
@@ -171,8 +172,8 @@ const Body = () => {
             {" "}
             <LazyLoadImage
               src={ficci}
-              width={"170px"}
-              height={"170px"}
+              width={"120px"}
+              height={"120px"}
               alt="abif"
               loading="lazy"
             ></LazyLoadImage>
@@ -181,18 +182,18 @@ const Body = () => {
           <div className="cour_item">
             <LazyLoadImage
               src={thub}
-              width={"170px"}
-              height={"170px"}
+              width={"120px"}
+              height={"120px"}
               alt="abif"
               loading="lazy"
             ></LazyLoadImage>
-            <p>Incubated with T hub</p>
+            <p>Associated with T Hub</p>
           </div>
           <div className="cour_item">
             <LazyLoadImage
               src={ikp}
-              width={"170px"}
-              height={"170px"}
+              width={"120px"}
+              height={"120px"}
               alt="abif"
               loading="lazy"
             ></LazyLoadImage>
@@ -201,8 +202,8 @@ const Body = () => {
           <div className="cour_item">
             <LazyLoadImage
               src={start_up}
-              width={"200px"}
-              height={"160px"}
+              width={"150px"}
+              height={"120px"}
               alt="abif"
               loading="lazy"
             ></LazyLoadImage>
@@ -211,8 +212,8 @@ const Body = () => {
           <div className="cour_item">
             <LazyLoadImage
               src={dpiit}
-              width={"170px"}
-              height={"170px"}
+              width={"120px"}
+              height={"120px"}
               alt="abif"
               loading="lazy"
             ></LazyLoadImage>
@@ -221,8 +222,8 @@ const Body = () => {
           <div className="cour_item">
             <LazyLoadImage
               src={kar}
-              width={"170px"}
-              height={"170px"}
+              width={"120px"}
+              height={"120px"}
               alt="startup karnataka"
               loading="lazy"
             ></LazyLoadImage>
@@ -231,8 +232,8 @@ const Body = () => {
           <div className="cour_item">
             <LazyLoadImage
               src={dst}
-              width={"170px"}
-              height={"170px"}
+              width={"120px"}
+              height={"120px"}
               alt="DST"
               loading="lazy"
             ></LazyLoadImage>
@@ -241,8 +242,8 @@ const Body = () => {
           <div className="cour_item">
             <LazyLoadImage
               src={indigram}
-              width={"170px"}
-              height={"170px"}
+              width={"120px"}
+              height={"120px"}
               alt="Indigram Labs"
               loading="lazy"
             ></LazyLoadImage>
@@ -251,8 +252,8 @@ const Body = () => {
           <div className="cour_item">
             <LazyLoadImage
               src={elevate}
-              width={"170px"}
-              height={"170px"}
+              width={"120px"}
+              height={"120px"}
               alt="Indigram Labs"
               loading="lazy"
             ></LazyLoadImage>
@@ -261,8 +262,8 @@ const Body = () => {
           <div className="cour_item">
             <LazyLoadImage
               src={atman}
-              width={"170px"}
-              height={"170px"}
+              width={"120px"}
+              height={"120px"}
               alt="Indigram Labs"
               loading="lazy"
             ></LazyLoadImage>
