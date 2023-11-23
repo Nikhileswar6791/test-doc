@@ -3,6 +3,17 @@
   padding: 10px 30px;
   margin-bottom: 50px;
 }
+.htw-header {
+  position: relative;
+  background-color: wheat;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  text-align: left;
+  margin-bottom: 20px;
+  height: 200px;
+  background-image: url("../images/useful_images_svg/bendy-working-with-the-business-dashboard.png");
+}
 .htw_main img {
   max-width: 80%;
   max-height: 400px;

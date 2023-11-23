@@ -14,6 +14,16 @@ const Swo_body = () => {
   return (
     <div>
       <div className="swo">
+        <div className="swo-header">
+          {" "}
+          <div className="overlay"></div>
+          <div className="content">
+            <h4>Solutions We Offer</h4>
+          </div>
+          {/* <div className="head-p">
+          <p> </p>
+        </div> */}
+        </div>
         <p>
           We provide solutions to check the health of your produce from the
           inside as well as outside via a non destructive and quick method. This

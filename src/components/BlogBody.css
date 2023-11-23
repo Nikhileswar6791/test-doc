@@ -18,7 +18,7 @@
 }
 .Blog_Head h4 {
   color: #05386b;
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 600;
 }
 .Blog_Head p {
@@ -102,6 +102,7 @@ dt {
   object-fit: cover;
   object-position: center;
 }
+
 @media screen and (max-width: 1300px) {
   .Blog_Body {
     padding-left: 5%;
@@ -118,5 +119,11 @@ dt {
   .Blog_Footer img {
     height: 80px;
     width: 80px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .Blog_Footer img {
+    height: 60px;
+    width: 60px;
   }
 }

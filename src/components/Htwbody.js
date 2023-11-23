@@ -5,6 +5,16 @@ import Htwmain from "./Htwmain";
 const Htwbody = () => {
   return (
     <div className="htw">
+      <div className="htw-header">
+        {" "}
+        <div className="overlay"></div>
+        <div className="content">
+          <h4>How the Technology Works</h4>
+        </div>
+        {/* <div className="head-p">
+          <p> </p>
+        </div> */}
+      </div>
       <p>
         We at Doctorspectra target for a comprehensive assessment of produce
         quality. This includes both internal and external inspections,

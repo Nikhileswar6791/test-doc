@@ -197,7 +197,7 @@ const Body = () => {
               alt="abif"
               loading="lazy"
             ></LazyLoadImage>
-            <p>Incubated with IKP Genome Valley, Hyderabad</p>
+            <p>Incubated with IKP</p>
           </div>
           <div className="cour_item">
             <LazyLoadImage

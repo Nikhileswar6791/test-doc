@@ -41,11 +41,11 @@ const Contactbody = () => {
     <div>
       <div className="contact">
         <div className="contact-head">
-          <h4>Contact Us</h4>
-          <p>
+          <h4>Contact Us!!</h4>
+          {/* <p>
             Reach out to us for any queries about our product or would like to
             join us !!
-          </p>
+          </p> */}
         </div>
         <div className="contact-form">
           <form ref={contactform} onSubmit={contactsendEmail}>
@@ -55,6 +55,9 @@ const Contactbody = () => {
                   <p>Please fill the following details</p>
                 </legend>
                 <div className="col-sm-6">
+                  <div className="pur">
+                    <p>Purpose</p>
+                  </div>
                   <div className="form-check">
                     <input
                       className="form-check-input"

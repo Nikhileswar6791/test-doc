@@ -13,9 +13,20 @@ import { SocialIcon } from "react-social-icons";
 const Aboutbody = () => {
   return (
     <div className="about">
+      <div className="about-header">
+        {" "}
+        <div className="overlay"></div>
+        <div className="content">
+          <h4>About Us</h4>
+        </div>
+        {/* <div className="head-p">
+          <p> </p>
+        </div> */}
+      </div>
+
       {/* <img src={top} width={"100%"} height={"400vh"} /> */}
       <p>
-        DoctorSpectra is a startup team of 7 highly-skilled professionals coming
+        DoctorSpectra is a startup team of 6 highly-skilled professionals coming
         from a wide background of expertise in India, and united by their
         passion for technology & science and with an aim of reducing food
         wastage and optimizing the food supply chain in India. In addition to
@@ -32,7 +43,7 @@ const Aboutbody = () => {
       <hr className="hr"></hr>
       <div className="team">
         <div className="row">
-          <div className="col-lg-3 core">
+          <div className="col-lg-4 core">
             <div className="core-in">
               <LazyLoadImage
                 src={about_1}
@@ -51,7 +62,7 @@ const Aboutbody = () => {
             </div>
           </div>
 
-          <div className="col-lg-3 core">
+          {/* <div className="col-lg-3 core">
             <div className="core-in">
               <LazyLoadImage
                 src={about_2}
@@ -68,9 +79,9 @@ const Aboutbody = () => {
                 />
               </div>
             </div>
-          </div>
+          </div> */}
 
-          <div className="col-lg-3 core">
+          <div className="col-lg-4 core">
             <div className="core-in">
               <LazyLoadImage
                 src={about_3}
@@ -89,7 +100,7 @@ const Aboutbody = () => {
             </div>
           </div>
 
-          <div className="col-lg-3 core">
+          <div className="col-lg-4 core">
             <div className="core-in">
               <LazyLoadImage
                 src={about_4}

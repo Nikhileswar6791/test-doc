@@ -10,7 +10,10 @@ const BlogsBody = () => {
     <div className="blogs">
       <div className="blogs-header">
         {" "}
-        <h4>Doctorspectra News .......</h4>
+        <div className="overlay"></div>
+        <div className="content">
+          <h4>Doctorspectra News .......</h4>
+        </div>
         {/* <div className="head-p">
           <p> </p>
         </div> */}

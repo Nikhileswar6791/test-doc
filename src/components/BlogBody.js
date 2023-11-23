@@ -187,7 +187,13 @@ const BlogBody = ({ id }) => {
       <div className="Blog_Footer">
         <div className="row">
           <div className="col-4">
-            <img className="blog_author" src={about_6} alt="blog_author" />
+            <img
+              width={"20px"}
+              height={"20px"}
+              className="blog_author"
+              src={about_6}
+              alt="blog_author"
+            />
           </div>
           <div className="col-8">
             <div className="row">
