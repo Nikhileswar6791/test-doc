@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a3b3cf3d.css",
-    "main.js": "/static/js/main.a7edf3d3.js",
+    "main.css": "/static/css/main.14c5056b.css",
+    "main.js": "/static/js/main.ffad191b.js",
     "static/media/image3.png": "/static/media/image3.637a389f14495e319cb2.png",
     "static/media/image15.png": "/static/media/image15.111cdbf1698883b5ce79.png",
     "static/media/image5-bndOsaotH6-transformed.webp": "/static/media/image5-bndOsaotH6-transformed.474185295d6016dc6177.webp",
@@ -18,6 +18,7 @@
     "static/media/image2.webp": "/static/media/image2.9a8c2d3314cb4e642bdc.webp",
     "static/media/blog_1.jpeg": "/static/media/blog_1.04c99856dc3c9dcd36cc.jpeg",
     "static/media/blog_3.jpeg": "/static/media/blog_3.b01d82d01f0482af10da.jpeg",
+    "static/media/casual-life-3d-girl-with-tablet-and-working-process-on-desktop.png": "/static/media/casual-life-3d-girl-with-tablet-and-working-process-on-desktop.56f6cc6ffa40fe4c1f12.png",
     "static/media/blog_2.jpeg": "/static/media/blog_2.5335a1a120d46f73552e.jpeg",
     "static/media/atman.svg": "/static/media/atman.17c6eb3021b8b4f29048eea3baade8e6.svg",
     "static/media/_52a1b0db-7105-4200-95ee-4266911ed00c.jpeg": "/static/media/_52a1b0db-7105-4200-95ee-4266911ed00c.8598af95fdf0613ba422.jpeg",
@@ -29,6 +30,7 @@
     "static/media/growers.svg": "/static/media/growers.f6f71b7e666fe3e0fd46a52756feaba9.svg",
     "static/media/traders.svg": "/static/media/traders.4ed32955d85f5ac00d1a23906b7beeb8.svg",
     "static/media/food.svg": "/static/media/food.b15602b56f8a98191b49e62645739e5e.svg",
+    "static/media/simplistic-man-and-woman-brainstorming-ideas.png": "/static/media/simplistic-man-and-woman-brainstorming-ideas.65a295561a8369d769f4.png",
     "static/media/swo-5.webp": "/static/media/swo-5.9951ebff4af11d73405a.webp",
     "static/media/about-4.webp": "/static/media/about-4.d37b97f2cc66375c4a7a.webp",
     "static/media/dpiit.webp": "/static/media/dpiit.62027142a88700d95856.webp",
@@ -37,10 +39,12 @@
     "static/media/swo-5.svg": "/static/media/swo-5.2d4a2e87d3588ea41b90bc24a976bf7e.svg",
     "static/media/about-1.webp": "/static/media/about-1.d43fa684495b40aa15f2.webp",
     "static/media/about-6.webp": "/static/media/about-6.8c60134db4d47e6c284a.webp",
+    "static/media/tiny-young-people-working-in-a-team.png": "/static/media/tiny-young-people-working-in-a-team.18aa27cac7de1de9e9bb.png",
     "static/media/IIM_Bangalore_Logo.svg.svg": "/static/media/IIM_Bangalore_Logo.svg.d571b0b33d557d99c0f8d4077364b181.svg",
     "static/media/htw-2.webp": "/static/media/htw-2.ac85d6db845c46dd11b9.webp",
     "static/media/swo-1.webp": "/static/media/swo-1.f43eda1ddbeee26bcf0f.webp",
     "static/media/IKP.webp": "/static/media/IKP.403d4a42576998e03e6e.webp",
+    "static/media/bendy-working-with-the-business-dashboard.png": "/static/media/bendy-working-with-the-business-dashboard.048e26e1bb9bb3b4137a.png",
     "static/media/NSRCEL.webp": "/static/media/NSRCEL.de52e5c6e2a8dc8b628b.webp",
     "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
@@ -53,11 +57,11 @@
     "static/media/Thub.webp": "/static/media/Thub.1b3b099012ecf7c028be.webp",
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
-    "main.a3b3cf3d.css.map": "/static/css/main.a3b3cf3d.css.map",
-    "main.a7edf3d3.js.map": "/static/js/main.a7edf3d3.js.map"
+    "main.14c5056b.css.map": "/static/css/main.14c5056b.css.map",
+    "main.ffad191b.js.map": "/static/js/main.ffad191b.js.map"
   },
   "entrypoints": [
-    "static/css/main.a3b3cf3d.css",
-    "static/js/main.a7edf3d3.js"
+    "static/css/main.14c5056b.css",
+    "static/js/main.ffad191b.js"
   ]
 }
