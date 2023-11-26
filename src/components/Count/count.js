@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
 import CountUp from "react-countup";
-import LazyLoad from "react-lazy-load";
 import "./count.css";
 function ComponentToRender() {
   const [isVisible, setIsVisible] = useState(false);

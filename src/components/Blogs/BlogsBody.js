@@ -1,9 +1,9 @@
 import React from "react";
-import "./BlogsBody.css";
-import about_5 from "../images/useful_images_svg/about-6.webp";
-import blog_1 from "../images/useful_images_svg/blog_1.jpeg";
-import blog_2 from "../images/useful_images_svg/blog_2.jpeg";
-import blog_3 from "../images/useful_images_svg/blog_3.jpeg";
+import "../Blogs/BlogsBody.css";
+import about_5 from "../../images/useful_images_svg/about-6.webp";
+import blog_1 from "../../images/useful_images_svg/blog_1.jpeg";
+import blog_2 from "../../images/useful_images_svg/blog_2.jpeg";
+import blog_3 from "../../images/useful_images_svg/blog_3.jpeg";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 const BlogsBody = () => {
   return (

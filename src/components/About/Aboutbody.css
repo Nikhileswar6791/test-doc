@@ -12,13 +12,9 @@
   text-align: left;
   margin-bottom: 20px;
   height: 200px;
-  background-image: url("../images/useful_images_svg/tiny-young-people-working-in-a-team.png");
+  background-image: url("../../images/useful_images_svg/tiny-young-people-working-in-a-team.png");
 }
 
-.about p {
-  font-weight: 500;
-  font-size: 1rem;
-}
 .about h4 {
   text-align: center;
   color: #d14836;
@@ -58,9 +54,14 @@
   border-radius: 100%;
 }
 
-.about-name {
-  padding-top: 10px;
-  color: #05386b;
+.about .about-prof {
+  padding-top: 20px;
+  font-size: 1.1rem;
+  /* color: #05386b; */
+}
+.about p {
+  font-weight: 500;
+  font-size: 1rem;
 }
 /* .team p {
   padding-top: 5px;

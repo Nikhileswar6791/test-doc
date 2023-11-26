@@ -1,7 +1,7 @@
 import React from "react";
 import "./Htwbody.css";
 
-import Htwmain from "./Htwmain";
+import Htwmain from "../Htwmain";
 const Htwbody = () => {
   return (
     <div className="htw">

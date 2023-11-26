@@ -2,7 +2,7 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import "./Footercss.css";
 import { Link } from "react-router-dom";
-import logo from "../images/logo.svg";
+import logo from "../../images/logo.svg";
 import { SocialIcon } from "react-social-icons";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 const Footer = () => {

@@ -1,5 +1,5 @@
 import React from "react";
-import "./Bodycss.css";
+import "./Body/Bodycss.css";
 import "bootstrap/dist/css/bootstrap.css";
 import retailers from "../images/useful_images_svg/retailers.svg";
 import growers from "../images/useful_images_svg/growers.svg";

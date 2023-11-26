@@ -1,9 +1,9 @@
 import React from "react";
 import "./BlogBody.css";
-import about_6 from "../images/useful_images_svg/about-6.webp";
-import blog_1 from "../images/useful_images_svg/blog_1.jpeg";
-import blog_2 from "../images/useful_images_svg/blog_2.jpeg";
-import blog_3 from "../images/useful_images_svg/blog_3.jpeg";
+import about_6 from "../../images/useful_images_svg/about-6.webp";
+import blog_1 from "../../images/useful_images_svg/blog_1.jpeg";
+import blog_2 from "../../images/useful_images_svg/blog_2.jpeg";
+import blog_3 from "../../images/useful_images_svg/blog_3.jpeg";
 import parse from "html-react-parser";
 import { SocialIcon } from "react-social-icons";
 const BlogBody = ({ id }) => {

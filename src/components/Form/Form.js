@@ -1,9 +1,9 @@
 import React, { useRef } from "react";
-import "./Bodycss.css";
+import "../Body/Bodycss.css";
 import "./Formcss.css";
 import "bootstrap/dist/css/bootstrap.css";
 import emailjs from "@emailjs/browser";
-import im_15 from "../images/useful_images_svg/image15.png";
+import im_15 from "../../images/useful_images_svg/image15.png";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 const Form = () => {
   const form = useRef();

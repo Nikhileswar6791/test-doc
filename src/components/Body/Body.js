@@ -1,27 +1,27 @@
 import React from "react";
-import "./Bodycss.css";
+import "../Body/Bodycss.css";
 import "bootstrap/dist/css/bootstrap.css";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import Foodchain from "./Foodchain";
-import abif from "../images/useful_images_svg/abif.webp";
-import nsrcel from "../images/useful_images_svg/NSRCEL.webp";
-import ficci from "../images/useful_images_svg/FICCI.webp";
-import thub from "../images/useful_images_svg/Thub.webp";
-import ikp from "../images/useful_images_svg/IKP.webp";
-import dpiit from "../images/useful_images_svg/dpiit.webp";
-import start_up from "../images/useful_images_svg/start_up.svg";
-import kharag from "../images/useful_images_svg/IIT_Kharagpur.svg";
-import banglore from "../images/useful_images_svg/IIM_Bangalore_Logo.svg.svg";
-import kar from "../images/useful_images_svg/karnataka_logo.png";
-import dst from "../images/useful_images_svg/DST.png";
-import elevate from "../images/useful_images_svg/elevate_2023.svg";
-import indigram from "../images/useful_images_svg/Indigram.png";
-import atman from "../images/useful_images_svg/atman.svg";
+import Foodchain from "../Foodchain.js";
+import abif from "../../images/useful_images_svg/abif.webp";
+import nsrcel from "../../images/useful_images_svg/NSRCEL.webp";
+import ficci from "../../images/useful_images_svg/FICCI.webp";
+import thub from "../../images/useful_images_svg/Thub.webp";
+import ikp from "../../images/useful_images_svg/IKP.webp";
+import dpiit from "../../images/useful_images_svg/dpiit.webp";
+import start_up from "../../images/useful_images_svg/start_up.svg";
+import kharag from "../../images/useful_images_svg/IIT_Kharagpur.svg";
+import banglore from "../../images/useful_images_svg/IIM_Bangalore_Logo.svg.svg";
+import kar from "../../images/useful_images_svg/karnataka_logo.png";
+import dst from "../../images/useful_images_svg/DST.png";
+import elevate from "../../images/useful_images_svg/elevate_2023.svg";
+import indigram from "../../images/useful_images_svg/Indigram.png";
+import atman from "../../images/useful_images_svg/atman.svg";
 import { LazyLoadImage } from "react-lazy-load-image-component";
-import Htw_main from "./Htwmain.js";
-import "./Htwbody.css";
-import RunningPercentageCount from "./count";
+import Htwmain from "../Htwmain.js";
+import "../HtwBody/Htwbody.css";
+import RunningPercentageCount from "../Count/count.js";
 const Body = () => {
   const responsive = {
     superLargeDesktop: {
@@ -46,7 +46,7 @@ const Body = () => {
     <div className="Body">
       <h4 className="text-top">How the technology works</h4>
       <div className="htw_home">
-        <Htw_main />
+        <Htwmain />
       </div>
       {/* <div className="row Main">
         <div className="col-md-5 Col-1">
