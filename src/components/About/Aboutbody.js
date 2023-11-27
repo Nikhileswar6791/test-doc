@@ -65,13 +65,13 @@ const Aboutbody = () => {
               ></LazyLoadImage>
               {/* <p className="about-name">Rati Gugnani</p> */}
               <p className="about-prof"> CEO and founder</p>
-              <div className="linkedin">
+              {/* <div className="linkedin">
                 <SocialIcon
                   url="https://www.linkedin.com/in/rati-gugnani-18a42612/"
                   bgColor="white"
                   fgColor="#fca253"
                 />
-              </div>
+              </div> */}
             </div>
           </div>
 
@@ -105,13 +105,13 @@ const Aboutbody = () => {
               <p className="about-prof">
                 Angel Investor and Chief advisor – Technology
               </p>
-              <div className="linkedin">
+              {/* <div className="linkedin">
                 <SocialIcon
                   url="https://www.linkedin.com/in/ankitsaxena2/"
                   bgColor="white"
                   fgColor="#fca253"
                 />
-              </div>
+              </div> */}
             </div>
           </div>
 
@@ -124,13 +124,13 @@ const Aboutbody = () => {
               ></LazyLoadImage>
               {/* <p className="about-name">Gayatri Mishra</p> */}
               <p className="about-prof">Technical Advisor - Spectral Imaging</p>
-              <div className="linkedin">
+              {/* <div className="linkedin">
                 <SocialIcon
                   url="https://www.linkedin.com/in/dr-gayatri-mishra-7a409379/"
                   bgColor="white"
                   fgColor="#fca253"
                 />
-              </div>
+              </div> */}
             </div>
           </div>
 
@@ -143,13 +143,13 @@ const Aboutbody = () => {
               ></LazyLoadImage>
               {/* <p className="about-name">Vaibhav Bisht</p> */}
               <p className="about-prof">ML Intern</p>
-              <div className="linkedin">
+              {/* <div className="linkedin">
                 <SocialIcon
                   url="https://www.linkedin.com/in/vaibhav-bisht-865876148/"
                   bgColor="white"
                   fgColor="#fca253"
                 />
-              </div>
+              </div> */}
             </div>
           </div>
 
@@ -162,13 +162,13 @@ const Aboutbody = () => {
               ></LazyLoadImage>
               {/* <p className="about-name">Nikhileswar Reddy P</p> */}
               <p className="about-prof">Web Development Intern</p>
-              <div className="linkedin">
+              {/* <div className="linkedin">
                 <SocialIcon
                   url="https://www.linkedin.com/in/nikhileswar-reddy-pochimireddy-46682720b/"
                   bgColor="white"
                   fgColor="#fca253"
                 />
-              </div>
+              </div> */}
             </div>
           </div>
 
@@ -181,13 +181,13 @@ const Aboutbody = () => {
               ></LazyLoadImage>
               {/* <p className="about-name">Dharani Samsritha</p> */}
               <p className="about-prof">App Development Intern</p>
-              <div className="linkedin">
+              {/* <div className="linkedin">
                 <SocialIcon
                   url="https://www.linkedin.com/in/dharani-samsritha/"
                   bgColor="white"
                   fgColor="#fca253"
                 />
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

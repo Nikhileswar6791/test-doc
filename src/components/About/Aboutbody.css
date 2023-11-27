@@ -5,14 +5,14 @@
 }
 .about-header {
   position: relative;
-  background-color: wheat;
+  background-color: white;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: left;
   color: white;
   text-align: left;
   margin-bottom: 20px;
-  height: 200px;
-  background-image: url("../../images/useful_images_svg/tiny-young-people-working-in-a-team.png");
+  height: 300px;
+  background-image: url("../../images/useful_images_svg/3d-casual-life-young-people-discussing-the-project.png");
 }
 
 .about h4 {
@@ -20,7 +20,7 @@
   color: #d14836;
 }
 .content h4 {
-  color: white;
+  color: #05386b;
   font-weight: 700;
 }
 .about-contact h4 {
@@ -89,7 +89,7 @@
   margin-bottom: 10px;
   padding: 20px;
   box-shadow: 0px 0px 15px -2px #444444;
-  height: 400px;
+  height: 350px;
   position: relative;
 }
 .linkedin {

@@ -153,7 +153,7 @@ const BlogBody = ({ id }) => {
             <div className="Right">
               <div className="by">
                 <p>
-                  BY <span className="auth_name">Nikhileswar Reddy P</span>
+                  By <span className="auth_name">Nikhileswar Reddy P</span>
                 </p>
               </div>
             </div>
