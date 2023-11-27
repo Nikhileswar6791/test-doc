@@ -6,12 +6,13 @@
   position: relative;
   background-color: white;
   background-repeat: no-repeat;
-  background-position: left top;
+  background-position: center;
+  background-size: 100%;
   color: #05386b;
   text-align: left;
   margin-bottom: 20px;
   height: 300px;
-  background-image: url("../../images/useful_images_svg/3d-casual-life-happy-man-and-website-window-in-laptop.svg");
+  background-image: url("../../images/useful_images_svg/_6e30bc9f-dd93-4710-b000-92d8ac6aeb9c.jpeg");
 }
 .swo .head {
   color: #05386b;

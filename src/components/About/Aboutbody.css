@@ -7,12 +7,14 @@
   position: relative;
   background-color: white;
   background-repeat: no-repeat;
-  background-position: left;
+  background-position: center;
+  background-size: 100%;
+  background-position-y: 40%;
   color: white;
   text-align: left;
   margin-bottom: 20px;
   height: 300px;
-  background-image: url("../../images/useful_images_svg/3d-casual-life-young-people-discussing-the-project.svg");
+  background-image: url("../../images/useful_images_svg/_1f738d6d-0235-4de8-84c1-5dac8cd3e610.jpeg");
 }
 
 .about h4 {
@@ -20,7 +22,7 @@
   color: #d14836;
 }
 .content h4 {
-  color: #05386b;
+  color: white;
   font-weight: 700;
 }
 .about-contact h4 {

@@ -10,12 +10,14 @@
   position: relative;
   background-color: white;
   background-repeat: no-repeat;
-  background-position: left top;
+  background-position: center;
+  background-position-y: 60%;
+  background-size: 100%;
   color: white;
   text-align: left;
   margin-bottom: 20px;
   height: 300px;
-  background-image: url("../../images/useful_images_svg/business-3d-tech-support.svg");
+  background-image: url("../../images/useful_images_svg/_23b45845-d1bb-4dbd-8c05-7075355fe30b.jpeg");
 }
 .htw_main img {
   max-width: 80%;
