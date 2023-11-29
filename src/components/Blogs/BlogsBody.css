@@ -171,4 +171,7 @@ h2 {
   .container-blogs {
     height: 850px;
   }
+  .blogs-header {
+    height: 200px;
+  }
 }

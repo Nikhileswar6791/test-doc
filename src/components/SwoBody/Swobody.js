@@ -68,7 +68,6 @@ const Swo_body = () => {
           We can help you assess your produce at a batch level as well as at a
           unit level
         </h4>
-
         <div className="row types">
           <div className="col-md-6">
             <h4>Batch level analysis with a conveyor belt mechanism</h4>

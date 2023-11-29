@@ -5,9 +5,15 @@ import "bootstrap/dist/css/bootstrap.css";
 import emailjs from "@emailjs/browser";
 import im_15 from "../../images/useful_images_svg/image15.png";
 import { LazyLoadImage } from "react-lazy-load-image-component";
+
 const Form = () => {
   const form = useRef();
-
+  // const ser_id = process.env.REACT_APP_SERID;
+  // console.log(ser_id);
+  // const id = process.env.REACT_APP_ID;
+  // console.log(id);
+  // const temp_id = process.env.REACT_APP_TEMP_1;
+  // console.log(temp_id);
   const sendEmail = (e) => {
     e.preventDefault();
     const success = document.getElementById("success");
@@ -22,12 +28,13 @@ const Form = () => {
     } else {
       danger.style.display = "none";
       success.style.display = "block";
-      emailjs.sendForm(
-        "service_hkr3p5g",
-        "template_oixgmgu",
-        form.current,
-        "OyStijACOhNSZ2tRe"
-      );
+      const ser_id = process.env.REACT_APP_SERID;
+      console.log(ser_id);
+      const id = process.env.REACT_APP_ID;
+      console.log(id);
+      const temp_id = process.env.REACT_APP_TEMP_1;
+      console.log(temp_id);
+      emailjs.sendForm(ser_id, temp_id, form.current, id);
       // .then(
       //   (result) => {
       //     console.log(result.text);

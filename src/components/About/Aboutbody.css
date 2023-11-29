@@ -145,4 +145,7 @@
   .core-in .about-name {
     font-size: 1.1rem;
   }
+  .about-header {
+    height: 200px;
+  }
 }

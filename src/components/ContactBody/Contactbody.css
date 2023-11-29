@@ -1,9 +1,14 @@
 .contact {
   margin-top: 0px;
   padding-top: 100px;
-  background: #05386b;
   text-align: center;
   position: relative;
+  background-image: url("../../images/useful_images_svg/_3c13487b-ba3d-47c4-b0ac-8f9cf1ff75e8.jpeg");
+  background-repeat: no-repeat;
+  background-position-y: 30%;
+  background-size: 100%;
+  background-position: center;
+  height: 350px;
 }
 .contact-body-1 {
   padding-bottom: 20px;
@@ -62,7 +67,7 @@ textarea {
   resize: none;
 }
 .contact-body {
-  height: 830px;
+  height: 950px;
 }
 #contact-success {
   padding-top: 20px;
@@ -96,7 +101,7 @@ textarea {
     padding-top: 20px;
   }
   .contact-body {
-    height: 1100px;
+    height: 1250px;
   }
   .form-check {
     margin-left: 30px;
@@ -120,7 +125,7 @@ textarea {
     font-size: 0.9rem;
   }
   .contact-body {
-    height: 1200px;
+    height: 1250px;
   }
   #contact-danger p {
     font-size: 0.9rem;
@@ -131,10 +136,13 @@ textarea {
   .contact-form label {
     font-size: 0.7rem;
   }
+  .contact {
+    height: 200px;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 830px) {
   .contact-body {
-    height: 800px;
+    height: 1050px;
   }
 }
 @media screen and (min-width: 800px) and (max-width: 1000px) {

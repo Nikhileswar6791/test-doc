@@ -5,7 +5,12 @@ import emailjs from "@emailjs/browser";
 
 const Contactbody = () => {
   const contactform = useRef();
-
+  // const ser_id = process.env.REACT_APP_SERID;
+  // console.log(ser_id);
+  // const id = process.env.REACT_APP_ID;
+  // console.log(id);
+  // const temp_id = process.env.REACT_APP_TEMP_2;
+  // console.log(temp_id);
   const contactsendEmail = (e) => {
     e.preventDefault();
     const contactsuccess = document.getElementById("contact-success");
@@ -21,12 +26,13 @@ const Contactbody = () => {
     } else {
       contactdanger.style.display = "none";
       contactsuccess.style.display = "block";
-      emailjs.sendForm(
-        "service_hkr3p5g",
-        "template_qxiytl8",
-        contactform.current,
-        "OyStijACOhNSZ2tRe"
-      );
+      const ser_id = process.env.REACT_APP_SERID;
+      console.log(ser_id);
+      const id = process.env.REACT_APP_ID;
+      console.log(id);
+      const temp_id = process.env.REACT_APP_TEMP_2;
+      console.log(temp_id);
+      emailjs.sendForm(ser_id, temp_id, contactform.current, id);
       // .then(
       //   (result) => {
       //     console.log(result.text);
@@ -40,8 +46,15 @@ const Contactbody = () => {
   return (
     <div>
       <div className="contact">
-        <div className="contact-head">
+        <div className="overlay"></div>
+        <div className="content">
           <h4>Contact Us!!</h4>
+        </div>
+        {/* <div className="head-p">
+          <p> </p>
+        </div> */}
+
+        <div className="contact-head">
           {/* <p>
             Reach out to us for any queries about our product or would like to
             join us !!
