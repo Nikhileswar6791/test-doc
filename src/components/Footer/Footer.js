@@ -38,23 +38,8 @@ const Footer = () => {
               <p>Careers</p>
             </Link>
           </div>
-          {/* <div className="row row-f">
-            <Link to="/contact">
-              <p>Contact us</p>
-            </Link>
-          </div> */}
         </div>
-        {/* <div className="col-md-3 col-sm-6">
-          <div className="row row-f row-head">
-            <p>Company</p>
-          </div>
-          <div className="row row-f">
-            <p>House 10</p>
-            <p>Prestige Oasis, Rajanukunte</p>
-            <p>Dodaballapur road, Banglore</p>
-            <p>Karnataka, 560064, India</p>
-          </div>
-        </div> */}
+
         <div className="col-md-4">
           <div className="row row-f row-head">
             <p>Links</p>

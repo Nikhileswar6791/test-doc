@@ -14,7 +14,7 @@ const BlogBody = ({ id }) => {
   var Body_Parsed = "";
   var min_read = "";
   var blog = blog_1;
-  if (id === ":1") {
+  if (id === "1") {
     blog = blog_1;
     Heading = " Modern day Food Quality Assessment Techniques";
     Body = `Food quality assessment is a critical aspect of the modern food industry, ensuring that the food we consume meets certain standards of safety, nutritional value, and sensory attributes. Advances in technology have led to the development of various sophisticated techniques and methods to assess food quality. In this blog post, we will explore some modern food quality assessment techniques and their significance in today's food industry.
@@ -45,7 +45,7 @@ const BlogBody = ({ id }) => {
     <div className="col col-md-4">Food</div>`;
     Topics_Parsed = parse(Topics);
     min_read = "10 MIN READ";
-  } else if (id === ":2") {
+  } else if (id === "2") {
     blog = blog_2;
     Heading = `"From Farm to Fork, Let's Minimize Food Waste and Feed the
     Nation"`;
@@ -102,7 +102,7 @@ const BlogBody = ({ id }) => {
     <div className ="col-6 col-md-4">Sustainability</div>`;
     Topics_Parsed = parse(Topics);
     min_read = "5 MIN READ";
-  } else if (id === ":3") {
+  } else if (id === "3") {
     Heading = `Understanding India's Low Farm Yields: A Global Perspective`;
     blog = blog_3;
     Body = `India, with its vast agricultural landscape and diverse agro-climatic zones, has been an agricultural hub for centuries. However, despite its potential, the country faces a persistent challenge: extremely low farm yields compared to several other nations across the globe. In this blog, we delve into the factors contributing to India's low farm yields and how it stands in comparison to agricultural yields worldwide.

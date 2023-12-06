@@ -8,7 +8,7 @@ const Navbar = () => {
   const handleclick = () => setclick(!onclick);
   return (
     <div className="header">
-      <NavLink href="/">
+      <NavLink to="/">
         {" "}
         <img height="60px" src={logo} alt="logo" />
       </NavLink>

@@ -8,12 +8,7 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const Form = () => {
   const form = useRef();
-  // const ser_id = process.env.REACT_APP_SERID;
-  // console.log(ser_id);
-  // const id = process.env.REACT_APP_ID;
-  // console.log(id);
-  // const temp_id = process.env.REACT_APP_TEMP_1;
-  // console.log(temp_id);
+
   const sendEmail = (e) => {
     e.preventDefault();
     const success = document.getElementById("success");
@@ -35,14 +30,6 @@ const Form = () => {
       const temp_id = process.env.REACT_APP_TEMP_1;
       console.log(temp_id);
       emailjs.sendForm(ser_id, temp_id, form.current, id);
-      // .then(
-      //   (result) => {
-      //     console.log(result.text);
-      //   },
-      //   (error) => {
-      //     console.log(error.text);
-      //   }
-      // );
     }
   };
   return (

@@ -35,7 +35,6 @@ function ComponentToRender() {
   return (
     <div ref={componentRef}>
       {isVisible ? (
-        // Render your component content here
         <div>
           <div className="row">
             <div className="col-sm-12 col-md-4 percentage">

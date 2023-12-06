@@ -25,7 +25,6 @@ import RunningPercentageCount from "../Count/count.js";
 const Body = () => {
   const responsive = {
     superLargeDesktop: {
-      // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
       items: 5,
     },
@@ -48,57 +47,7 @@ const Body = () => {
       <div className="htw_home">
         <Htwmain />
       </div>
-      {/* <div className="row Main">
-        <div className="col-md-5 Col-1">
-          <LazyLoadImage
-            src={im_8}
-            width={"60%"}
-            height={"60%"}
-            alt="Spectral Imaging"
-            loading="lazy"
-          ></LazyLoadImage> */}
-      {/* <div className="LazyLoadImage-wrapper"></div> */}
-      {/* <p>
-            We use the novel technology of Hyperspectral imaging to check the
-            freshness of your produce from the inside coupled with image
-            processing which checks the exterior as well.
-          </p>
-        </div>
-        <div className="col-md-5 Col-2">
-          <LazyLoadImage
-            src={im_7}
-            width={"60%"}
-            height={"60%"}
-            alt="Spectral Imaging"
-            loading="lazy"
-          ></LazyLoadImage> */}
-      {/* <div className="LazyLoadImage-wrapper"></div> */}
-      {/* <p>
-            This is layered further with artificial intelligence which processes
-            the data and gives accurate results on specific contents of the
-            fresh produce which further determines its freshness, days to get
-            fully ripe and identify and alert for any unwanted contamination (if
-            any).
-          </p>
-        </div>
-      </div> */}
-      {/* <div className='row row-body'>
-          <div className='col-md-6 '>
-          <LazyLoadImage src = {require("../images/images/image8.jpg")} width={"100%"} alt = "Spectral Imaging"></LazyLoadImage>
-          </div>
-          <div className='col-md-6 para'>
-          <p>We use the novel technology of Hyperspectral imaging to check the freshness of your produce from the inside coupled with image processing which checks the exterior as well.</p>
-          </div>
-    </div>
-    <div className='row row-body'>
-    <div className='col-md-6'>
-    <LazyLoadImage src = {require("../images/images/image7.jpg")} width={"100%"} alt = "Spectral Imaging"></LazyLoadImage>
-    
-    </div>
-    <div className='col-md-6 para'>
-    <p>This is layered further with artificial intelligence which processes the data and gives accurate results on specific contents of the fresh produce which further determines its freshness, days to get fully ripe and identify and alert for any unwanted contamination (if any).</p>
-    </div>
-</div> */}
+
       <hr className="hr"></hr>
       <h4 className="text">Solutions for entire food supply chain</h4>
       <Foodchain />
@@ -271,23 +220,7 @@ const Body = () => {
           </div>
         </Carousel>
       </div>
-      {/* <div className="awards">
-        <h4 className="text">Awards and Recognitions</h4>
-        <div className="row">
-          <div className="a-1 col-md-4">
-            <LazyLoadImage src={abif} width={"180px"} height={"180px"} alt="abif"></LazyLoadImage>
-            <p> Incubated with ABIF IIT Kharagpur</p>
-          </div>
-          <div className="a-1 col-md-4">
-            <LazyLoadImage src={nsrcel} width={"180px"} height={"180px"} alt="abif"></LazyLoadImage>
-            <p>Incubated with NSRCEL IIM Bangalore</p>
-          </div>
-          <div className="a-1 col-md-4">
-            <LazyLoadImage src={ficci} width={"180px"} height={"180px"} alt="abif"></LazyLoadImage>
-            <p>FICCI IndusInd event Startup Hub</p>
-          </div>
-        </div>
-      </div> */}
+
       <hr className="hr"></hr>
     </div>
   );

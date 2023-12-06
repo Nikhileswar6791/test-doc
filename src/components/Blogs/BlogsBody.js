@@ -14,39 +14,15 @@ const BlogsBody = () => {
         <div className="content">
           <h4>Doctorspectra News .......</h4>
         </div>
-        {/* <div className="head-p">
-          <p> </p>
-        </div> */}
       </div>
 
       <div className="blogsBody row">
-        {/*
-      <div classNameName="blogsBody">
-        <div classNameName="col-lg-3 blogCard">
-          <a href="/">
-            <div classNameName="blog-in">
-              <LazyLoadImage
-                src={about_1}
-                alt="rati"
-                loading="lazy"
-              ></LazyLoadImage>
-              <p classNameName="blog-author">BY Rati Gugnani</p>
-              <p classNameName="blog-text">
-                {" "}
-                It has been all about our access to food
-              </p>
-            </div>
-          </a>
-        </div> */}
-        {/* </div> */}
         <div className="col-lg-4 col-md-6">
-          <a href="/blogs/:1">
+          <a href="/blogs/1">
             <div className="container-blogs ">
               <div className="blog_card">
                 <LazyLoadImage src={blog_1} className="card_image" alt="blog" />
                 <div className="card_text">
-                  {/* <div className="tags">quality</div>
-                <div className="tags">quality</div> */}
                   <h2 className="title">
                     {" "}
                     Modern day Food Quality Assessment Techniques
@@ -73,12 +49,11 @@ const BlogsBody = () => {
           </a>
         </div>
         <div className="col-lg-4 col-md-6">
-          <a href="/blogs/:2">
+          <a href="/blogs/2">
             <div className="container-blogs ">
               <div className="blog_card">
                 <LazyLoadImage src={blog_2} className="card_image" alt="blog" />
                 <div className="card_text">
-                  {/* <div className="tags">PyTorch</div> */}
                   <h2 className="title">
                     {" "}
                     "From Farm to Fork, Let's Minimize Food Waste and Feed the
@@ -104,12 +79,11 @@ const BlogsBody = () => {
           </a>
         </div>
         <div className="col-lg-4 col-md-6">
-          <a href="/blogs/:3">
+          <a href="/blogs/3">
             <div className="container-blogs ">
               <div className="blog_card">
                 <LazyLoadImage src={blog_3} className="card_image" alt="blog" />
                 <div className="card_text">
-                  {/* <div className="tags">PyTorch</div> */}
                   <h2 className="title">
                     {" "}
                     Understanding India's Low Farm Yields: A Global Perspective
