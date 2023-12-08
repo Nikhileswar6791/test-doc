@@ -56,7 +56,7 @@ const Contactbody = () => {
                       id="r-1"
                       value="BUSINESS"
                     />
-                    <label className="form-check-label" for="r-1">
+                    <label className="form-check-label" htmlFor="r-1">
                       Business
                     </label>
                   </div>
@@ -68,7 +68,7 @@ const Contactbody = () => {
                       id="r-2"
                       value="CAREERS"
                     />
-                    <label className="form-check-label" for="gridRadios2">
+                    <label className="form-check-label" htmlFor="gridRadios2">
                       Careers
                     </label>
                   </div>
@@ -80,7 +80,7 @@ const Contactbody = () => {
                       id="r-3"
                       value="CAREERS"
                     />
-                    <label className="form-check-label" for="r-3">
+                    <label className="form-check-label" htmlFor="r-3">
                       Media
                     </label>
                   </div>
@@ -92,7 +92,7 @@ const Contactbody = () => {
                       id="r-4"
                       value="CAREERS"
                     />
-                    <label className="form-check-label" for="r-4">
+                    <label className="form-check-label" htmlFor="r-4">
                       Industry Partnerships/Associations
                     </label>
                   </div>
@@ -104,7 +104,7 @@ const Contactbody = () => {
                       id="r-5"
                       value="OTHERS"
                     />
-                    <label className="form-check-label" for="r-5">
+                    <label className="form-check-label" htmlFor="r-5">
                       Others
                     </label>
                   </div>
@@ -114,7 +114,7 @@ const Contactbody = () => {
             <div className="space-30"></div>
             <div className="form-group row">
               <div className="form-group col-md-6 Contact-col-1">
-                <label for="contact-email">
+                <label htmlFor="contact-email">
                   <p>Email *</p>
                 </label>
                 <input
@@ -126,7 +126,7 @@ const Contactbody = () => {
                 />
               </div>
               <div className="form-group col-md-6 Contact-col-2">
-                <label for="contact-name">
+                <label htmlFor="contact-name">
                   <p>Name *</p>
                 </label>
                 <input
@@ -141,7 +141,7 @@ const Contactbody = () => {
             <div className="space-30"></div>
             <div className="form-group row">
               <div className="form-group col-md-6 Contact-col-1">
-                <label for="contact-c-name">
+                <label htmlFor="contact-c-name">
                   <p>Company Name *</p>
                 </label>
                 <input
@@ -153,7 +153,7 @@ const Contactbody = () => {
                 />
               </div>
               <div className="form-group col-md-6 Contact-col-2">
-                <label for="contact-mob">
+                <label htmlFor="contact-mob">
                   <p>Mobile number *</p>
                 </label>
                 <input
@@ -171,7 +171,7 @@ const Contactbody = () => {
               className="form-group row col-md-12"
               style={{ paddingLeft: "10px" }}
             >
-              <label for="contact-textarea">
+              <label htmlFor="contact-textarea">
                 <p>Anything you want to tell us</p>
               </label>
               <textarea

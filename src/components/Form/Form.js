@@ -48,7 +48,7 @@ const Form = () => {
         <div className="col-md-6">
           <form ref={form} onSubmit={sendEmail}>
             <div className="row mb-3">
-              <label for="Email" className="col-sm-2 col-form-label">
+              <label htmlFor="Email" className="col-sm-2 col-form-label">
                 <p>Email</p>
               </label>
               <div className="col-sm-10">
@@ -61,7 +61,7 @@ const Form = () => {
               </div>
             </div>
             <div className="row mb-3">
-              <label for="Name" className="col-sm-2 col-form-label">
+              <label htmlFor="Name" className="col-sm-2 col-form-label">
                 <p>Name</p>
               </label>
               <div className="col-sm-10">
@@ -74,7 +74,7 @@ const Form = () => {
               </div>
             </div>
             <div className="row mb-3">
-              <label for="c-Name" className="col-sm-2 col-form-label">
+              <label htmlFor="c-Name" className="col-sm-2 col-form-label">
                 <p>Company Name</p>
               </label>
               <div className="col-sm-10">
