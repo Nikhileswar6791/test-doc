@@ -2,8 +2,8 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import Carousel from "react-bootstrap/Carousel";
 import "./Slidercss.css";
-import im_1 from "../../images/useful_images_svg/image1.webp";
-import im_2 from "../../images/useful_images_svg/image2.webp";
+import im_1 from "../../images/useful_images_svg/_b3bce666-6812-4d3e-abcd-1aac5645fc18.webp";
+import im_2 from "../../images/useful_images_svg/_72ea98d9-dd09-4923-8077-ee65753adf3e.webp";
 import im_3 from "../../images/useful_images_svg/image3.png";
 import im_19 from "../../images/useful_images_svg/_f6331141-319f-499d-8c4d-ced2a9d3ed9b.webp";
 import im_4 from "../../images/useful_images_svg/_c9157b12-0007-419c-8c2f-69a29d72cb07.jpeg";
@@ -29,7 +29,7 @@ const Slider = () => {
             <h3>Scalable way of digitizing food quality</h3>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item interval={5000}>
+        <Carousel.Item interval={5000} className="pos-top">
           <img className="d-block w-100" src={im_2} alt="Three" />
           <Carousel.Caption className="text-img">
             <h3>Reduce Food Wastage</h3>
