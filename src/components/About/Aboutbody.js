@@ -1,14 +1,17 @@
 import React from "react";
 import "./Aboutbody.css";
 import about_1 from "../../images/useful_images_svg/about-1.webp";
-import about_2 from "../../images/useful_images_svg/about-2.webp";
+import about_2 from "../../images/useful_images_svg/anurag.jpg";
 import about_3 from "../../images/useful_images_svg/about-3.webp";
 import about_4 from "../../images/useful_images_svg/about-4.webp";
 import about_5 from "../../images/useful_images_svg/about-5.webp";
 import about_6 from "../../images/useful_images_svg/about-6.webp";
 import about_7 from "../../images/useful_images_svg/about-7.webp";
+import about_8 from "../../images/useful_images_svg/saikiran.jpg";
+import about_9 from "../../images/useful_images_svg/sriram.jpg";
+import about_10 from "../../images/useful_images_svg/shivam.jpg";
+import about_11 from "../../images/useful_images_svg/rashmi.jpg";
 import { LazyLoadImage } from "react-lazy-load-image-component";
-import { SocialIcon } from "react-social-icons";
 const Aboutbody = () => {
   return (
     <div className="about">
@@ -54,77 +57,130 @@ const Aboutbody = () => {
       <hr className="hr"></hr>
       <div className="team">
         <div className="row">
-          <div className="col-lg-4 core">
+          <div className="col-lg-3 core">
             <div className="core-in">
               <LazyLoadImage
                 src={about_1}
                 alt="rati"
                 loading="lazy"
               ></LazyLoadImage>
-
+              <p className="about-name"> Rati Gugnani</p>
               <p className="about-prof"> CEO and founder</p>
             </div>
           </div>
+          <div className="col-lg-3 core">
+            <div className="core-in">
+              <LazyLoadImage
+                src={about_2}
+                alt="anurag"
+                loading="lazy"
+              ></LazyLoadImage>
+              <p className="about-name"> Anurag Yadav</p>
+              <p className="about-prof"> CTO and Co founder</p>
+            </div>
+          </div>
 
-          <div className="col-lg-4 core">
+          <div className="col-lg-3 core">
             <div className="core-in">
               <LazyLoadImage
                 src={about_3}
                 alt="rati"
                 loading="lazy"
               ></LazyLoadImage>
-
-              <p className="about-prof">
-                Angel Investor and Chief advisor – Technology
-              </p>
+              <p className="about-name"> Ankit Saxena</p>
+              <p className="about-prof">Angel Investor and Tech Advisor</p>
             </div>
           </div>
 
-          <div className="col-lg-4 core">
+          <div className="col-lg-3 core">
             <div className="core-in">
               <LazyLoadImage
                 src={about_4}
                 alt="rati"
                 loading="lazy"
               ></LazyLoadImage>
-
+              <p className="about-name"> Gayatri Mishra</p>
               <p className="about-prof">Technical Advisor - Spectral Imaging</p>
             </div>
           </div>
 
-          <div className="col-lg-4 intern">
+          <div className="col-lg-3 intern">
             <div className="core-in">
               <LazyLoadImage
                 src={about_5}
                 alt="rati"
                 loading="lazy"
               ></LazyLoadImage>
-
+              <p className="about-name"> Vaibhav</p>
               <p className="about-prof">ML Intern</p>
             </div>
           </div>
 
-          <div className="col-lg-4 intern">
+          <div className="col-lg-3 intern">
             <div className="core-in">
               <LazyLoadImage
                 src={about_6}
                 alt="rati"
                 loading="lazy"
               ></LazyLoadImage>
-
+              <p className="about-name"> Nikhileswar Reddy</p>
               <p className="about-prof">Web Development Intern</p>
             </div>
           </div>
 
-          <div className="col-lg-4 intern">
+          <div className="col-lg-3 intern">
             <div className="core-in">
               <LazyLoadImage
                 src={about_7}
                 alt="rati"
                 loading="lazy"
               ></LazyLoadImage>
-
+              <p className="about-name"> Dharani Samsritha</p>
               <p className="about-prof">App Development Intern</p>
+            </div>
+          </div>
+          <div className="col-lg-3 intern">
+            <div className="core-in">
+              <LazyLoadImage
+                src={about_8}
+                alt="saikiran"
+                loading="lazy"
+              ></LazyLoadImage>
+              <p className="about-name"> Myla Venkata Sai Kiran</p>
+              <p className="about-prof">App Development Intern</p>
+            </div>
+          </div>
+          <div className="col-lg-4 intern">
+            <div className="core-in">
+              <LazyLoadImage
+                src={about_9}
+                alt="saikiran"
+                loading="lazy"
+              ></LazyLoadImage>
+              <p className="about-name"> Sriram Mudragada</p>
+              <p className="about-prof">App Development Intern</p>
+            </div>
+          </div>
+          <div className="col-lg-4 intern">
+            <div className="core-in">
+              <LazyLoadImage
+                src={about_10}
+                alt="saikiran"
+                loading="lazy"
+              ></LazyLoadImage>
+              <p className="about-name"> Shivam Kumar</p>
+              <p className="about-prof">ML Intern</p>
+            </div>
+          </div>
+          <div className="col-lg-4 intern">
+            <div className="core-in">
+              <LazyLoadImage
+                src={about_11}
+                alt="saikiran"
+                loading="lazy"
+              ></LazyLoadImage>
+              <p className="about-name"> Rashmi Singh</p>
+              <p className="about-prof">ML Intern</p>
             </div>
           </div>
         </div>
