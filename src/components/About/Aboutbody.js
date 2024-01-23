@@ -11,6 +11,7 @@ import about_8 from "../../images/useful_images_svg/saikiran.jpg";
 import about_9 from "../../images/useful_images_svg/sriram.jpg";
 import about_10 from "../../images/useful_images_svg/shivam.jpg";
 import about_11 from "../../images/useful_images_svg/rashmi.jpg";
+import about_12 from "../../images/useful_images_svg/vivek.jpg";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 const Aboutbody = () => {
   return (
@@ -111,7 +112,7 @@ const Aboutbody = () => {
                 alt="rati"
                 loading="lazy"
               ></LazyLoadImage>
-              <p className="about-name"> Vaibhav</p>
+              <p className="about-name"> Vaibhav Bisht</p>
               <p className="about-prof">ML Intern</p>
             </div>
           </div>
@@ -150,7 +151,7 @@ const Aboutbody = () => {
               <p className="about-prof">App Development Intern</p>
             </div>
           </div>
-          <div className="col-lg-4 intern">
+          <div className="col-lg-3 intern">
             <div className="core-in">
               <LazyLoadImage
                 src={about_9}
@@ -161,7 +162,7 @@ const Aboutbody = () => {
               <p className="about-prof">App Development Intern</p>
             </div>
           </div>
-          <div className="col-lg-4 intern">
+          <div className="col-lg-3 intern">
             <div className="core-in">
               <LazyLoadImage
                 src={about_10}
@@ -172,7 +173,7 @@ const Aboutbody = () => {
               <p className="about-prof">ML Intern</p>
             </div>
           </div>
-          <div className="col-lg-4 intern">
+          <div className="col-lg-3 intern">
             <div className="core-in">
               <LazyLoadImage
                 src={about_11}
@@ -180,6 +181,17 @@ const Aboutbody = () => {
                 loading="lazy"
               ></LazyLoadImage>
               <p className="about-name"> Rashmi Singh</p>
+              <p className="about-prof">ML Intern</p>
+            </div>
+          </div>
+          <div className="col-lg-3 intern">
+            <div className="core-in">
+              <LazyLoadImage
+                src={about_12}
+                alt="vivek"
+                loading="lazy"
+              ></LazyLoadImage>
+              <p className="about-name">Vivek Pillai</p>
               <p className="about-prof">ML Intern</p>
             </div>
           </div>

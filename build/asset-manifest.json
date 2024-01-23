@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e05c094c.css",
-    "main.js": "/static/js/main.277cc7a9.js",
+    "main.js": "/static/js/main.81b019f3.js",
     "static/media/image3.png": "/static/media/image3.637a389f14495e319cb2.png",
     "static/media/image15.png": "/static/media/image15.111cdbf1698883b5ce79.png",
     "static/media/_61849e3b-cc65-4f12-97ac-2f03cf970caf.webp": "/static/media/_61849e3b-cc65-4f12-97ac-2f03cf970caf.88da502817d87deb36b4.webp",
@@ -31,6 +31,7 @@
     "static/media/owner.svg": "/static/media/owner.d72062aa0c566834ae84543a5ccf16c6.svg",
     "static/media/retailers.svg": "/static/media/retailers.79e9afebd1a312cc6b676f5a12e70bcb.svg",
     "static/media/sriram.jpg": "/static/media/sriram.cfe86c2fdd4d39ad9686.jpg",
+    "static/media/vivek.jpg": "/static/media/vivek.936ff41c040c15db715a.jpg",
     "static/media/anurag.jpg": "/static/media/anurag.e2560f24ebf5034a06df.jpg",
     "static/media/rashmi.jpg": "/static/media/rashmi.ffdd41355bb970cc547a.jpg",
     "static/media/about-7.webp": "/static/media/about-7.7de66c5d5cbf74075f25.webp",
@@ -62,10 +63,10 @@
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
     "main.e05c094c.css.map": "/static/css/main.e05c094c.css.map",
-    "main.277cc7a9.js.map": "/static/js/main.277cc7a9.js.map"
+    "main.81b019f3.js.map": "/static/js/main.81b019f3.js.map"
   },
   "entrypoints": [
     "static/css/main.e05c094c.css",
-    "static/js/main.277cc7a9.js"
+    "static/js/main.81b019f3.js"
   ]
 }
